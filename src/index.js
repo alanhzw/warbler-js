@@ -2,13 +2,14 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-10 17:19:55
+ * @LastEditTime: 2021-09-10 17:40:58
  * @FilePath: \warblerJS\src\index.js
  */
 
 // 数组方法
 export {
   findObjectInArray,
+  arrWithoutDupli,
 } from './array/index';
 
 // boolean值方法
