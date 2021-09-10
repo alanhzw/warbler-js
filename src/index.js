@@ -28,7 +28,8 @@ export {
 
 // 数字方法
 export {
-
+  isEvenNumber,
+  getAverage,
 } from './number/index';
 
 // 日期方法
