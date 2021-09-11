@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:模拟延迟
  * @Date: 2021-09-10 14:58:17
- * @LastEditTime: 2021-09-10 17:15:01
- * @FilePath: \warblerJS\src\function\imitateDelay.js
+ * @LastEditTime: 2021-09-11 21:48:34
+ * @FilePath: \warblerJS\src\methods\imitateDelay.js
  */
 
 /**

@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-10 18:12:25
+ * @LastEditTime: 2021-09-11 21:47:54
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -42,4 +42,4 @@ export {
 // 通用方法
 export {
   imitateDelay,
-} from './function/index';
+} from './methods/index';
