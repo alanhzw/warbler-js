@@ -1,14 +1,3 @@
-<!--
- * @Author: 一尾流莺
- * @Description:
- * @Date: 2021-09-10 15:28:19
- * @LastEditTime: 2021-09-11 22:21:38
- * @FilePath: \warblerJS\README.md
--->
----
-highlight: a11y-dark
-theme: smartblue
----
 
 # 简介
 
