@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-13 09:07:09
+ * @LastEditTime: 2021-09-13 18:03:26
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -43,11 +43,6 @@ export {
 export {
 
 } from './object/index';
-
-// 常用正则
-export {
-
-} from './regexp/index';
 
 // 字符串方法
 export {
