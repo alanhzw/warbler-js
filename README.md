@@ -234,7 +234,7 @@ import { getAverage } from 'warbler-js'
 const result1 = getAverage(1,2,3,4)
 const result2 = getAverage(1,2,3,4,5,6,7,8)
 console.log(result1) //=> 2.5
-console.log(result2) //=> 4.4
+console.log(result2) //=> 4.5
 ```
 
 ## 判断奇偶
@@ -301,7 +301,7 @@ const randomBoolean = () => Math.random() >= 0.5;
 ```js
 import { randomBoolean } from 'warbler-js'
 const result = randomBoolean()
-console.log( result ) //=> true
+console.log(result) //=> true
 ```
 
 # 日期
@@ -345,10 +345,11 @@ const imitateDelay = (timeout) => new Promise(
 
 
 ```js
-import { imitateDelay } from 'warbler-js'
-async function(){
-   console.log('The first log');
-   await imitateDelay(1000);
-   console.log('The second log with 1000 ms delay')  //=> 1000 毫秒后输出 The second log with 1000 ms delay
+import { imitateDelay } from 'warbler-js';
+async function test() {
+  console.log('The first log');
+  await imitateDelay(1000);
+  console.log('The second log with 1000 ms delay'); // => 1000 毫秒后输出 The second log with 1000 ms delay
 }
+test();
 ```
