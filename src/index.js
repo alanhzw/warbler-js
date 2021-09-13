@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-11 21:47:54
+ * @LastEditTime: 2021-09-13 09:07:09
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -18,15 +18,20 @@ export {
   randomBoolean,
 } from './boolean/index';
 
-// 对象方法
+// 日期方法
 export {
 
-} from './object/index';
+} from './date/index';
 
-// 字符串方法
+// 函数方法
 export {
-  reverseString,
-} from './string/index';
+
+} from './function/index';
+
+// 常用功能方法
+export {
+  imitateDelay,
+} from './methods/index';
 
 // 数字方法
 export {
@@ -34,12 +39,17 @@ export {
   getAverage,
 } from './number/index';
 
-// 日期方法
+// 对象方法
 export {
 
-} from './date/index';
+} from './object/index';
 
-// 通用方法
+// 常用正则
 export {
-  imitateDelay,
-} from './methods/index';
+
+} from './regexp/index';
+
+// 字符串方法
+export {
+  reverseString,
+} from './string/index';

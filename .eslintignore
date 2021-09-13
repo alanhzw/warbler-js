@@ -5,3 +5,4 @@ node_modules/
 src/utils/
 src/assets/
 src/mobile/utils/
+package.json
