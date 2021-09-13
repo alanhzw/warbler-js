@@ -1,14 +1,22 @@
 {
-  "name": "warblerJS",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "warbler-js",
+  "version": "1.0.1",
+  "description": "A JavaScript utility library",
+  "main": "src/index.js",
   "scripts": {
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "JavaScript",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanhzw/warbler-js"
+  },
+  "homepage": "https://github.com/alanhzw/warbler-js",
+  "author": "warbler",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.32.0",

@@ -11,12 +11,12 @@ theme: github
 
 
 ```js
-npm i --save warblerJS
+npm i --save warbler-js
 ```
 
-## 什么是warblerJS
+## 什么是warbler-js
 
-`warblerJS` 是一个 `JavaScript` 实用工具库。
+`warbler-js` 是一个 `JavaScript` 实用工具库。
 
 ## 开发者
 
@@ -64,7 +64,7 @@ const arrWithoutDupli = (arr) => [...new Set(arr)];
 
 
 ```js
-import { arrWithoutDupli } from 'warblerJS'
+import { arrWithoutDupli } from 'warbler-js'
 
 const fruits = ["apple", "mango", "orange", "apple", "pineapple", "pineapple", "peach", "mango"]
 
@@ -103,7 +103,7 @@ const arrObjectWithoutDupli = (arr, key) => arr.reduce((cur, next) => {
 
 
 ```js
-import { arrObjectWithoutDupli } from 'warblerJS'
+import { arrObjectWithoutDupli } from 'warbler-js'
 const fruits = [
     {name: 'Grapes', quantity: 2},
     {name: 'Bananas', quantity: 5},
@@ -147,7 +147,7 @@ const findObjectInArray = (arr, key, value) => arr.find((obj) => obj[key] === va
 ### 例子
 
 ```js
-import { findObjectInArray } from 'warblerJS'
+import { findObjectInArray } from 'warbler-js'
 let fruits = [
   {name: 'Bananas', quantity: 5},
   {name: 'Apples', quantity: 10},
@@ -196,7 +196,7 @@ const reverseString = (str) => str.split('').reverse().join('');
 ### 例子
 
 ```js
-import { reverseString } from 'warblerJS'
+import { reverseString } from 'warbler-js'
 const initStr = 'hello,world'
 const finallyStr = reverseString(initStr)
 console.log(finallyStr) //=> dlrow,olleh
@@ -214,7 +214,7 @@ const result = getAverage(...args)
 
 ### 参数
 
-- `args` (**Number**) ： 目标数字，不限制参数数量。
+- `...args` (**Number**) ： 目标数字，不限制参数数量。
 
 ### 返回值
 
@@ -230,7 +230,7 @@ const getAverage = (...args) => args.reduce((a, b) => a + b) / args.length;
 ### 例子
 
 ```js
-import { getAverage } from 'warblerJS'
+import { getAverage } from 'warbler-js'
 const result1 = getAverage(1,2,3,4)
 const result2 = getAverage(1,2,3,4,5,6,7,8)
 console.log(result1) //=> 2.5
@@ -262,7 +262,7 @@ const isEvenNumber = (num) => num % 2 === 0;
 ### 例子
 
 ```js
-import { isEvenNumber } from 'warblerJS'
+import { isEvenNumber } from 'warbler-js'
 const result1 = isEvenNumber(4)
 const result2 = isEvenNumber(5)
 console.log(result1) //=> true
@@ -299,7 +299,7 @@ const randomBoolean = () => Math.random() >= 0.5;
 ### 例子
 
 ```js
-import { randomBoolean } from 'warblerJS'
+import { randomBoolean } from 'warbler-js'
 const result = randomBoolean()
 console.log( result ) //=> true
 ```
@@ -345,6 +345,7 @@ const imitateDelay = (timeout) => new Promise(
 
 
 ```js
+import { imitateDelay } from 'warbler-js'
 async function(){
    console.log('The first log');
    await imitateDelay(1000);
