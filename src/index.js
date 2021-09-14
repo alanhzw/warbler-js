@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-14 15:36:21
+ * @LastEditTime: 2021-09-14 16:31:41
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -20,7 +20,7 @@ export {
 
 // 日期方法
 export {
-
+  dayOfYear,
 } from './date/index';
 
 // 函数方法
