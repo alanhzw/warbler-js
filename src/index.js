@@ -48,4 +48,6 @@ export {
 // 字符串方法
 export {
   reverseString,
+  toUpperFirstLetter,
+  toLowerFirstLetter,
 } from './string/index';

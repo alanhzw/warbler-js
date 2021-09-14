@@ -9,6 +9,14 @@
 // 反转字符串
 import reverseString from './reverseString';
 
+// 将字符串的首字母转换成大写字母
+import toUpperFirstLetter from './toUpperFirstLetter';
+
+// 将字符串的首字母转换成大写字母
+import toLowerFirstLetter from './toLowerFirstLetter';
+
 export {
   reverseString,
+  toUpperFirstLetter,
+  toLowerFirstLetter,
 };
