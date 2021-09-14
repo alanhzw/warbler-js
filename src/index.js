@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-13 18:03:26
+ * @LastEditTime: 2021-09-14 15:36:21
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -31,6 +31,7 @@ export {
 // 常用功能方法
 export {
   imitateDelay,
+  loadScript,
 } from './methods/index';
 
 // 数字方法
