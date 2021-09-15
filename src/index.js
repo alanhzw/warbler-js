@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-15 10:25:28
+ * @LastEditTime: 2021-09-15 11:01:36
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -13,6 +13,8 @@ export {
   arrObjectWithoutDupli,
   countFrequency,
   countObjFrequency,
+  filterUnique,
+  filterNoUnique,
 } from './array/index';
 
 // boolean值方法
@@ -40,6 +42,7 @@ export {
 export {
   isEvenNumber,
   getAverage,
+  isDivisible,
 } from './number/index';
 
 // 对象方法

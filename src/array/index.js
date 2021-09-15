@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:操作数组相关的方法
  * @Date: 2021-09-10 11:15:33
- * @LastEditTime: 2021-09-10 18:09:57
+ * @LastEditTime: 2021-09-15 11:00:34
  * @FilePath: \warblerJS\src\array\index.js
  */
 
@@ -21,10 +21,18 @@ import countFrequency from './countFrequency';
 // 计算对象数组中某个属性值的出现次数
 import countObjFrequency from './countObjFrequency';
 
+// 过滤数组中的唯一值
+import filterUnique from './filterUnique';
+
+// 过滤数组中的非唯一值
+import filterNoUnique from './filterNoUnique';
+
 export {
   findObjectInArray,
   arrWithoutDupli,
   arrObjectWithoutDupli,
   countFrequency,
   countObjFrequency,
+  filterUnique,
+  filterNoUnique,
 };
