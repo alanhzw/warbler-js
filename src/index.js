@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-14 16:31:41
+ * @LastEditTime: 2021-09-15 10:25:28
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -11,6 +11,8 @@ export {
   findObjectInArray,
   arrWithoutDupli,
   arrObjectWithoutDupli,
+  countFrequency,
+  countObjFrequency,
 } from './array/index';
 
 // boolean值方法

@@ -15,8 +15,16 @@ import arrWithoutDupli from './arrWithoutDupli';
 // 数组对象去重
 import arrObjectWithoutDupli from './arrObjectWithoutDupli';
 
+// 计算数组中元素的出现次数
+import countFrequency from './countFrequency';
+
+// 计算对象数组中某个属性值的出现次数
+import countObjFrequency from './countObjFrequency';
+
 export {
   findObjectInArray,
   arrWithoutDupli,
   arrObjectWithoutDupli,
+  countFrequency,
+  countObjFrequency,
 };
