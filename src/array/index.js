@@ -27,6 +27,9 @@ import filterUnique from './filterUnique';
 // 过滤数组中的非唯一值
 import filterNoUnique from './filterNoUnique';
 
+// 计算对象数组指定健的平均值
+import getAverageBy from './getAverageBy';
+
 export {
   findObjectInArray,
   arrWithoutDupli,
@@ -35,4 +38,5 @@ export {
   countObjFrequency,
   filterUnique,
   filterNoUnique,
+  getAverageBy,
 };

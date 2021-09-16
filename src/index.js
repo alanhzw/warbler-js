@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-15 11:01:36
+ * @LastEditTime: 2021-09-16 16:54:11
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -15,6 +15,7 @@ export {
   countObjFrequency,
   filterUnique,
   filterNoUnique,
+  getAverageBy,
 } from './array/index';
 
 // boolean值方法

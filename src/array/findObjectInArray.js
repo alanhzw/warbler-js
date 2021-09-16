@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:在数组中根据对象的键查找目标对象
  * @Date: 2021-09-10 11:15:33
- * @LastEditTime: 2021-09-15 10:21:17
+ * @LastEditTime: 2021-09-16 16:53:17
  * @FilePath: \warblerJS\src\array\findObjectInArray.js
  */
 
@@ -17,12 +17,12 @@ const findObjectInArray = (arr, key, value) => arr.find((obj) => obj[key] === va
 
 /** 用法
 
-  const inventory = [
+  const fruits = [
     {name: 'Bananas', quantity: 5},
     {name: 'Apples', quantity: 10},
     {name: 'Grapes', quantity: 2}
   ];
-  const result = findObjectInArray(inventory,'name','Apples');
+  const result = findObjectInArray(fruits,'name','Apples');
   console.log(result) // {name: 'Apples', quantity: 10}
 
  */

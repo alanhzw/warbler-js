@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:数组对象去重(不会修改原数组)
  * @Date: 2021-09-10 11:15:33
- * @LastEditTime: 2021-09-10 18:09:32
+ * @LastEditTime: 2021-09-16 16:51:22
  * @FilePath: \warblerJS\src\array\arrObjectWithoutDupli.js
  */
 
@@ -23,14 +23,14 @@ const arrObjectWithoutDupli = (arr, key) => arr.reduce((cur, next) => {
 
 /** 用法
 
-  const inventory = [
+  const fruits = [
     {name: 'Grapes', quantity: 2},
     {name: 'Bananas', quantity: 5},
     {name: 'Apples', quantity: 10},
     {name: 'Grapes', quantity: 4},
     {name: 'Grapes', quantity: 6},
   ];
-  const result = arrObjectWithoutDupli(inventory,'name');
+  const result = arrObjectWithoutDupli(fruits,'name');
   console.log(result) // [
     {name: 'Grapes', quantity: 2},
     {name: 'Bananas', quantity: 5},
