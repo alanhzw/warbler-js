@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:计算对象数组指定健的平均值
  * @Date: 2021-09-10 14:58:17
- * @LastEditTime: 2021-09-16 16:57:37
+ * @LastEditTime: 2021-09-16 17:45:41
  * @FilePath: \warblerJS\src\array\getAverageBy.js
  */
 
@@ -23,9 +23,7 @@ const averageBy = (arr, key) => arr.reduce((pre, cur) => pre + cur[key], 0) / ar
     {name: 'Grapes', quantity: 6},
   ];
   const result = averageBy(fruits,'quantity')
-
   console.log(result) //=> 5.4
-
  */
 
 export default averageBy;
