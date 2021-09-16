@@ -30,6 +30,9 @@ import filterNoUnique from './filterNoUnique';
 // 计算对象数组指定健的平均值
 import getAverageBy from './getAverageBy';
 
+// 检测所有元素是否符合要求
+import isAllPass from './isAllPass';
+
 export {
   findObjectInArray,
   arrWithoutDupli,
@@ -39,4 +42,5 @@ export {
   filterUnique,
   filterNoUnique,
   getAverageBy,
+  isAllPass,
 };
