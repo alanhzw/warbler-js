@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-16 17:11:59
+ * @LastEditTime: 2021-09-16 17:42:12
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -17,6 +17,8 @@ export {
   filterNoUnique,
   getAverageBy,
   isAllPass,
+  minArray,
+  maxArray,
 } from './array/index';
 
 // boolean值方法

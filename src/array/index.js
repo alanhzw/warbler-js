@@ -33,6 +33,12 @@ import getAverageBy from './getAverageBy';
 // 检测所有元素是否符合要求
 import isAllPass from './isAllPass';
 
+// 获取数组中指定个数的最小元素
+import minArray from './minArray';
+
+// 获取数组中指定个数的最大元素
+import maxArray from './maxArray';
+
 export {
   findObjectInArray,
   arrWithoutDupli,
@@ -43,4 +49,6 @@ export {
   filterNoUnique,
   getAverageBy,
   isAllPass,
+  minArray,
+  maxArray,
 };
