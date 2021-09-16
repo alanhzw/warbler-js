@@ -2,14 +2,15 @@
  * @Author: 一尾流莺
  * @Description:计算对象数组指定健的平均值
  * @Date: 2021-09-10 14:58:17
- * @LastEditTime: 2021-09-16 16:53:29
+ * @LastEditTime: 2021-09-16 16:57:37
  * @FilePath: \warblerJS\src\array\getAverageBy.js
  */
 
 /**
  * @description: 计算对象数组指定健的平均值
- * @param { Array } num 目标数字,不限制参数数量
- * @return { Number } 所有参数的平均数
+ * @param { Array } arr 需要计算平均值的数组
+ * @param { String } key 需要计算平均值的 key
+ * @return { Number } 指定健的平均值
  */
 const averageBy = (arr, key) => arr.reduce((pre, cur) => pre + cur[key], 0) / arr.length;
 
