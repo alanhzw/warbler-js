@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-16 17:05:23
+ * @LastEditTime: 2021-09-16 17:11:59
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -57,4 +57,5 @@ export {
   reverseString,
   toUpperFirstLetter,
   toLowerFirstLetter,
+  capitalizeWord,
 } from './string/index';
