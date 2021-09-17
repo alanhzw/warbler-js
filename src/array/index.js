@@ -39,6 +39,12 @@ import minArray from './minArray';
 // 获取数组中指定个数的最大元素
 import maxArray from './maxArray';
 
+// 计算数组元素的总和
+import getTotal from './getTotal';
+
+// 计算对象数组某个属性值的总和
+import getTotalBy from './getTotalBy';
+
 export {
   findObjectInArray,
   arrWithoutDupli,
@@ -51,4 +57,6 @@ export {
   isAllPass,
   minArray,
   maxArray,
+  getTotal,
+  getTotalBy,
 };

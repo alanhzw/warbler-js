@@ -18,9 +18,13 @@ import toLowerFirstLetter from './toLowerFirstLetter';
 // 将字符串中每个单词的首字母转为大写
 import capitalizeWord from './capitalizeWord';
 
+// 将字符串按字母顺序排列
+import alphabetical from './alphabetical';
+
 export {
   reverseString,
   toUpperFirstLetter,
   toLowerFirstLetter,
   capitalizeWord,
+  alphabetical,
 };

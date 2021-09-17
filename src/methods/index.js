@@ -8,10 +8,15 @@
 
 // 模拟延迟
 import imitateDelay from './imitateDelay';
+
 // 异步加载script脚本
 import loadScript from './loadScript';
+
+// 获取当前页面的URL
+import getCurrentUrl from './getCurrentUrl';
 
 export {
   imitateDelay,
   loadScript,
+  getCurrentUrl,
 };

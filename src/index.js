@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-16 17:42:12
+ * @LastEditTime: 2021-09-17 16:31:27
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -19,6 +19,8 @@ export {
   isAllPass,
   minArray,
   maxArray,
+  getTotal,
+  getTotalBy,
 } from './array/index';
 
 // boolean值方法
@@ -40,6 +42,7 @@ export {
 export {
   imitateDelay,
   loadScript,
+  getCurrentUrl,
 } from './methods/index';
 
 // 数字方法
@@ -60,4 +63,5 @@ export {
   toUpperFirstLetter,
   toLowerFirstLetter,
   capitalizeWord,
+  alphabetical,
 } from './string/index';
