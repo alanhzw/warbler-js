@@ -15,8 +15,16 @@ import getAverage from './getAverage';
 // 判断数字是否可以整除
 import isDivisible from './isDivisible';
 
+// 生成范围内的随机整数
+import randomIntegerInRange from './randomIntegerInRange';
+
+// 生成范围内的随机数
+import randomInRange from './randomInRange';
+
 export {
   isEvenNumber,
   getAverage,
   isDivisible,
+  randomIntegerInRange,
+  randomInRange,
 };

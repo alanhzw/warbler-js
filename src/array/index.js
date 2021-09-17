@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:操作数组相关的方法
  * @Date: 2021-09-10 11:15:33
- * @LastEditTime: 2021-09-15 11:00:34
+ * @LastEditTime: 2021-09-17 16:54:04
  * @FilePath: \warblerJS\src\array\index.js
  */
 
@@ -45,6 +45,18 @@ import getTotal from './getTotal';
 // 计算对象数组某个属性值的总和
 import getTotalBy from './getTotalBy';
 
+// 获取两个数组之间不同的元素
+import arrDifference from './arrDifference';
+
+// 获取两个数组之间相同的元素
+import arrSimilarity from './arrSimilarity';
+
+// 获取数组二相对于数组一不同的元素
+import getDifferenceFrom from './getDifferenceFrom';
+
+// 随机化数组元素的顺序
+import shuffleArr from './shuffleArr';
+
 export {
   findObjectInArray,
   arrWithoutDupli,
@@ -59,4 +71,8 @@ export {
   maxArray,
   getTotal,
   getTotalBy,
+  arrDifference,
+  arrSimilarity,
+  getDifferenceFrom,
+  shuffleArr,
 };

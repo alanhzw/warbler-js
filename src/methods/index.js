@@ -15,8 +15,12 @@ import loadScript from './loadScript';
 // 获取当前页面的URL
 import getCurrentUrl from './getCurrentUrl';
 
+// 滚动到页面顶部
+import scrollToTop from './scrollToTop';
+
 export {
   imitateDelay,
   loadScript,
   getCurrentUrl,
+  scrollToTop,
 };

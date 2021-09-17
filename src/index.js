@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-17 16:31:27
+ * @LastEditTime: 2021-09-17 17:12:48
  * @FilePath: \warblerJS\src\index.js
  */
 
@@ -21,6 +21,10 @@ export {
   maxArray,
   getTotal,
   getTotalBy,
+  arrDifference,
+  arrSimilarity,
+  getDifferenceFrom,
+  shuffleArr,
 } from './array/index';
 
 // boolean值方法
@@ -43,6 +47,7 @@ export {
   imitateDelay,
   loadScript,
   getCurrentUrl,
+  scrollToTop,
 } from './methods/index';
 
 // 数字方法
@@ -50,6 +55,8 @@ export {
   isEvenNumber,
   getAverage,
   isDivisible,
+  randomIntegerInRange,
+  randomInRange,
 } from './number/index';
 
 // 对象方法
