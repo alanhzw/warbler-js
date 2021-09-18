@@ -35,6 +35,7 @@ export {
 // 日期方法
 export {
   dayOfYear,
+  getDayDiff,
 } from './date/index';
 
 // 函数方法
