@@ -12,7 +12,19 @@ import dayOfYear from './dayOfYear';
 // 获取两个日期之间以天为单位的差值
 import getDayDiff from './getDayDiff';
 
+// 判断指定日期是不是今天
+import isToday from './isToday';
+
+// 判断指定日期是不是n天前
+import isYesterday from './isYesterday';
+
+// 判断指定日期是不是n天后
+import isTomorrow from './isTomorrow';
+
 export {
   dayOfYear,
   getDayDiff,
+  isToday,
+  isYesterday,
+  isTomorrow,
 };

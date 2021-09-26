@@ -1,6 +1,6 @@
 {
   "name": "warbler-js",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A JavaScript utility library",
   "main": "src/index.js",
   "scripts": {
