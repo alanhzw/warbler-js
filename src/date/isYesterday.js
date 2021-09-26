@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:判断指定日期是不是n天前
  * @Date: 2021-09-14 16:09:42
- * @LastEditTime: 2021-09-26 14:49:27
+ * @LastEditTime: 2021-09-26 18:01:33
  * @FilePath: \warblerJS\src\date\isYesterday.js
  */
 
@@ -22,7 +22,7 @@ const isYesterday = (date, n = 1) => {
 
 /** 用法
 
-// 测试日期为2021-06-26
+// 测试日期为2021-09-26
 const result1 = isYesterday(new Date())
 const result2 = isYesterday("2021-09-25",1)
 const result3 = isYesterday("2021-09-25",2)
