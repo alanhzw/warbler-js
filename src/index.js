@@ -2,74 +2,33 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-09-17 17:12:48
+ * @LastEditTime: 2021-09-26 11:25:08
  * @FilePath: \warblerJS\src\index.js
  */
 
 // 数组方法
-export {
-  findObjectInArray,
-  arrWithoutDupli,
-  arrObjectWithoutDupli,
-  countFrequency,
-  countObjFrequency,
-  filterUnique,
-  filterNoUnique,
-  getAverageBy,
-  isAllPass,
-  minArray,
-  maxArray,
-  getTotal,
-  getTotalBy,
-  arrDifference,
-  arrSimilarity,
-  getDifferenceFrom,
-  shuffleArr,
-} from './array/index';
+export * from './array/index';
 
 // boolean值方法
-export {
-  randomBoolean,
-} from './boolean/index';
+export * from './boolean/index';
 
 // 日期方法
-export {
-  dayOfYear,
-  getDayDiff,
-} from './date/index';
+export * from './date/index';
 
 // 函数方法
-export {
-
-} from './function/index';
+export * from './function/index';
 
 // 常用功能方法
-export {
-  imitateDelay,
-  loadScript,
-  getCurrentUrl,
-  scrollToTop,
-} from './methods/index';
+export * from './methods/index';
 
 // 数字方法
-export {
-  isEvenNumber,
-  getAverage,
-  isDivisible,
-  randomIntegerInRange,
-  randomInRange,
-} from './number/index';
+export * from './number/index';
 
 // 对象方法
-export {
+export * from './object/index';
 
-} from './object/index';
+// 正则
+export * from './reg/index';
 
 // 字符串方法
-export {
-  reverseString,
-  toUpperFirstLetter,
-  toLowerFirstLetter,
-  capitalizeWord,
-  alphabetical,
-} from './string/index';
+export * from './string/index';
