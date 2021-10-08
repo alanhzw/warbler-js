@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-10 14:42:22
- * @LastEditTime: 2021-09-14 16:10:16
+ * @LastEditTime: 2021-10-08 14:32:09
  * @FilePath: \warblerJS\.eslintrc.js
  */
 module.exports = {
@@ -21,5 +21,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'linebreak-style': 'off',
     'max-len': 'off',
+    'no-useless-escape': 'off',
   },
 };
