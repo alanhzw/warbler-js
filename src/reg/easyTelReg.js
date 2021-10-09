@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:中国手机号, 只要是 1 开头即可
  * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-08 15:11:24
+ * @LastEditTime: 2021-10-09 17:15:05
  * @FilePath: \warblerJS\src\reg\easyTelReg.js
  */
 
@@ -12,12 +12,13 @@
  * @return { Boolean } 是否通过验证
  */
 const easyTelReg = (value) => {
-  if (Object.prototype.toString.call(value) !== '[object String]') {
-    throw new Error('只能检测字符串类型');
-  }
   const reg = /^(?:(?:\+|00)86)?1\d{10}$/;
   return reg.test(value);
 };
+
+// if (Object.prototype.toString.call(value) !== '[object String]') {
+//   throw new Error('只能检测字符串类型');
+// }
 
 /** 用法
 
@@ -29,7 +30,7 @@ const easyTelReg = (value) => {
   console.log(result1) // true
   console.log(result2) // true
   console.log(result3) // true
-  console.log(result4) // true
+  console.log(result4) // false
 
  */
 export default easyTelReg;
