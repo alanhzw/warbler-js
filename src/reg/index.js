@@ -17,6 +17,8 @@ import complexTelReg from './complexTelReg';
 
 // 整数(包含0)
 import integerReg from './integerReg';
+// 整数(不包含0)
+import noZeroIntegerReg from './noZeroIntegerReg';
 // 正整数(包含0)
 import zeroPositiveIntegerReg from './zeroPositiveIntegerReg';
 // 正整数(不包含0)
@@ -31,6 +33,7 @@ export {
   strictTelReg,
   complexTelReg,
   integerReg,
+  noZeroIntegerReg,
   zeroPositiveIntegerReg,
   positiveIntegerReg,
   zeroNegativeIntegerReg,
