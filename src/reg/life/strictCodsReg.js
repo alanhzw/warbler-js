@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:统一社会信用代码(严格)
  * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 11:27:00
+ * @LastEditTime: 2021-10-13 11:49:34
  * @FilePath: \warblerJS\src\reg\life\strictCodsReg.js
  */
 
@@ -24,6 +24,6 @@ const strictCodsReg = (value) => {
   const result1 = strictCodsReg('9134052155323005XL')
   const result2 = strictCodsReg('91330526MA345BR13A')
   console.log(result1) // true
-  console.log(result2) // false
+  console.log(result2) // true
  */
 export default strictCodsReg;
