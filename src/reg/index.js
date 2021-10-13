@@ -2,31 +2,31 @@
  * @Author: 一尾流莺
  * @Description:正则相关的方法
  * @Date: 2021-09-10 11:15:44
- * @LastEditTime: 2021-10-09 17:43:45
+ * @LastEditTime: 2021-10-13 10:46:14
  * @FilePath: \warblerJS\src\reg\index.js
  */
 
 // 中国手机号(简单), 只要是 1 开头即可
-import easyTelReg from './easyTelReg';
+import easyTelReg from './phone/easyTelReg';
 
 // 中国手机号(复杂), 中国手机号(复杂), 只要是13,14,15,16,17,18,19开头即可
-import strictTelReg from './strictTelReg';
+import strictTelReg from './phone/strictTelReg';
 
 // 中国手机号(严格), 根据工信部2019年最新公布的手机号段
-import complexTelReg from './complexTelReg';
+import complexTelReg from './phone/complexTelReg';
 
 // 整数(包含0)
-import integerReg from './integerReg';
+import integerReg from './number/integerReg';
 // 整数(不包含0)
-import noZeroIntegerReg from './noZeroIntegerReg';
+import noZeroIntegerReg from './number/noZeroIntegerReg';
 // 正整数(包含0)
-import zeroPositiveIntegerReg from './zeroPositiveIntegerReg';
+import zeroPositiveIntegerReg from './number/zeroPositiveIntegerReg';
 // 正整数(不包含0)
-import positiveIntegerReg from './positiveIntegerReg';
+import positiveIntegerReg from './number/positiveIntegerReg';
 // 负整数(包含0)
-import zeroNegativeIntegerReg from './zeroNegativeIntegerReg';
+import zeroNegativeIntegerReg from './number/zeroNegativeIntegerReg';
 // 负整数(不包含0)
-import negativeIntegerReg from './negativeIntegerReg';
+import negativeIntegerReg from './number/negativeIntegerReg';
 
 export {
   easyTelReg,
