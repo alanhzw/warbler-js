@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:正则相关的方法
  * @Date: 2021-09-10 11:15:44
- * @LastEditTime: 2021-10-13 18:24:09
+ * @LastEditTime: 2021-10-13 18:32:32
  * @FilePath: \warblerJS\src\reg\index.js
  */
 // ```````````````````````````````````````````数字类`````````````````````````````````````````````````
@@ -84,6 +84,9 @@ export {
   currencyReg,
   moneyReg,
   numberReg,
+};
+
+export {
   easyTelReg,
   complexTelReg,
   strictTelReg,
@@ -105,6 +108,8 @@ export {
   imeiReg,
   codsReg,
   strictCodsReg,
+};
+export {
   chineseNameReg,
   englishNameReg,
   emailReg,
@@ -121,6 +126,8 @@ export {
   noLetterReg,
   nlBothReg,
   achievementReg,
+};
+export {
   urlReg,
   urlWithPortReg,
   subnetReg,
