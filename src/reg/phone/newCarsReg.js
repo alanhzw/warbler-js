@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:车牌号(新能源)
  * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 15:30:36
+ * @LastEditTime: 2021-10-13 18:09:12
  * @FilePath: \warblerJS\src\reg\phone\newCarsReg.js
  */
 
@@ -11,7 +11,7 @@
  * @param { String } value 待验证字符串
  * @return { Boolean } 是否通过验证
  */
-const carsReg = (value) => {
+const newCarsReg = (value) => {
   const reg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z](?:((\d{5}[A-HJK])|([A-HJK][A-HJ-NP-Z0-9][0-9]{4}))|[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳])$/;
   return reg.test(value);
 };
@@ -22,11 +22,11 @@ const carsReg = (value) => {
 
 /** 用法
 
-  const result1 = carsReg('京AD80234')
-  const result2 = carsReg('辽D46234F')
+  const result1 = newCarsReg('京AD80234')
+  const result2 = newCarsReg('辽D46234F')
 
   console.log(result1) // true
   console.log(result2) // true
 
  */
-export default carsReg;
+export default newCarsReg;
