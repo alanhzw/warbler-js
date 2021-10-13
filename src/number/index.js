@@ -10,7 +10,7 @@
 import isEvenNumber from './judge/isEvenNumber';
 
 // 获取参数的平均数值
-import getAverage from './getAverage';
+import getAverage from './calculation/getAverage';
 
 // 判断数字是否可以整除
 import isDivisible from './judge/isDivisible';
