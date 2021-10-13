@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:随机化数组元素的顺序
  * @Date: 2021-09-17 17:04:00
- * @LastEditTime: 2021-09-17 17:06:16
- * @FilePath: \warblerJS\src\array\shuffleArr.js
+ * @LastEditTime: 2021-10-13 11:37:59
+ * @FilePath: \warblerJS\src\array\other\shuffleArr.js
  */
 /**
  * @description: 随机化数组元素的顺序

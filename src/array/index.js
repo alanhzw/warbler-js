@@ -55,7 +55,7 @@ import arrSimilarity from './find/arrSimilarity';
 import getDifferenceFrom from './find/getDifferenceFrom';
 
 // 随机化数组元素的顺序
-import shuffleArr from './shuffleArr';
+import shuffleArr from './other/shuffleArr';
 
 export {
   findObjectInArray,
