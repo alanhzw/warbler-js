@@ -21,10 +21,14 @@ import isYesterday from './judge/isYesterday';
 // 判断指定日期是不是n天后
 import isTomorrow from './judge/isTomorrow';
 
+// 判断是否达到指定时间
+import isScheduled from './judge/isScheduled';
+
 export {
   dayOfYear,
   getDayDiff,
   isToday,
   isYesterday,
   isTomorrow,
+  isScheduled,
 };

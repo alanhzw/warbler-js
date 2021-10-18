@@ -1,7 +1,7 @@
 {
   "name": "warbler-js",
-  "version": "1.10.3",
-  "description": "A JavaScript utility library",
+  "version": "1.10.4",
+  "description": "A JavaScript utility library , JavaScript 实用工具库",
   "main": "src/index.js",
   "scripts": {
     "dev": "vite",
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/alanhzw/warbler-js"
   },
-  "homepage": "https://github.com/alanhzw/warbler-js",
+  "homepage": "http://warblerjs.duwanyu.com",
   "author": "warbler",
   "license": "ISC",
   "devDependencies": {
