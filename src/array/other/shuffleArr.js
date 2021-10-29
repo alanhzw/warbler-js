@@ -2,12 +2,12 @@
  * @Author: 一尾流莺
  * @Description:随机化数组元素的顺序
  * @Date: 2021-09-17 17:04:00
- * @LastEditTime: 2021-10-13 11:37:59
+ * @LastEditTime: 2021-10-29 10:59:28
  * @FilePath: \warblerJS\src\array\other\shuffleArr.js
  */
 /**
  * @description: 随机化数组元素的顺序
- * @param { Array } 需要打乱顺序的数组
+ * @param { Array } arr 需要打乱顺序的数组
  * @return { Array } 打乱顺序后的数组
  */
 const shuffleArr = (arr) => arr.sort(() => Math.random() - 0.5);

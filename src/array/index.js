@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:操作数组相关的方法
  * @Date: 2021-09-10 11:15:33
- * @LastEditTime: 2021-10-13 11:36:48
+ * @LastEditTime: 2021-10-29 11:11:59
  * @FilePath: \warblerJS\src\array\index.js
  */
 
@@ -57,7 +57,19 @@ import getDifferenceFrom from './find/getDifferenceFrom';
 // 随机化数组元素的顺序
 import shuffleArr from './other/shuffleArr';
 
+// 根据元素值移除数组的元素
+import arrRemoveEle from './remove/arrRemoveEle';
+
+// 根据函数名称移除函数数组的元素
+import arrRemoveFunEle from './remove/arrRemoveFunEle';
+
+// 根据对象数组的属性值移除数组的元素
+import arrRemoveObjEle from './remove/arrRemoveObjEle';
+
 export {
+  arrRemoveObjEle,
+  arrRemoveFunEle,
+  arrRemoveEle,
   findObjectInArray,
   arrWithoutDupli,
   arrObjectWithoutDupli,
