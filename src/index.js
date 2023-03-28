@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:入口文件
  * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2021-10-13 11:38:57
- * @FilePath: \warblerJS\src\index.js
+ * @LastEditTime: 2023-03-28 15:07:57
+ * @FilePath: \warbler-js\src\index.js
  */
 
 // 数组方法
