@@ -1,0 +1,46 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:身份证号（二代）
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 19:02:24
+ * @FilePath: \warblerjs-guide\docs\guide\reg\idSecondReg.md
+-->
+
+# 身份证号（二代）
+
+验证二代身份证号，`18` 位，最后一位是校验位,可能为 `数字` 或字符 `X`。
+
+## 语法
+
+```js
+import { idSecondReg } from 'warbler-js';
+const result = idSecondReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const idSecondReg = (value) => {
+  const reg = /^[1-9]\d{5}(?:18|19|20)\d{2}(?:0[1-9]|10|11|12)(?:0[1-9]|[1-2]\d|30|31)\d{3}[\dXx]$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { idSecondReg } from 'warbler-js';
+const result1 = idSecondReg('150404199803095215')
+const result2 = idSecondReg('15040419980309521x')
+
+console.log(result1) // true
+console.log(result2) // true
+```

@@ -13,5 +13,5 @@
   // 定义一个默认格式化程序, 该格式化程序优先于所有其他格式化程序设置。必须是提供格式化程序的扩展的标识符。
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // 忽略单词
-  "cSpell.words": ["dimm", "linebreak", "navs", "preinstall", "vite"]
+  "cSpell.words": ["dimm", "linebreak", "navs", "preinstall", "vite", "vitepress"]
 }

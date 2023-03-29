@@ -1,0 +1,44 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:身份证号（台湾）
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 19:06:14
+ * @FilePath: \warblerjs-guide\docs\guide\reg\idTaiwanReg.md
+-->
+
+# 身份证号（台湾）
+
+验证台湾地区身份证号。
+
+## 语法
+
+```js
+import { idTaiwanReg } from 'warbler-js';
+const result = idTaiwanReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const idTaiwanReg = (value) => {
+  const reg = /^[a-zA-Z][0-9]{9}$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { idTaiwanReg } from 'warbler-js';
+const result1 = idTaiwanReg('U193683453')
+
+console.log(result1) // true
+```

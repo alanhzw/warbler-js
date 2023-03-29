@@ -1,0 +1,50 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:中国手机号(复杂)
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 18:51:51
+ * @FilePath: \warblerjs-guide\docs\guide\reg\complexTelReg.md
+-->
+
+# 中国手机号(复杂)
+
+验证手机号，**11** 位，必须是 **13,14,15,16,17,18,19** 开头，允许 **0086** 、**+86** 前缀。
+
+## 语法
+
+```js
+import { complexTelReg } from 'warbler-js';
+const result = complexTelReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const complexTelReg = (value) => {
+  const reg = /^(?:(?:\+|00)86)?1[3-9]\d{9}$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { complexTelReg } from 'warbler-js';
+const result1 = complexTelReg('008617612340174')
+const result2 = complexTelReg('+8617612340174')
+const result3 = complexTelReg('19912340174')
+const result4 = complexTelReg('12912340174')
+
+console.log(result1) // true
+console.log(result2) // true
+console.log(result3) // true
+console.log(result4) // false
+```

@@ -1,0 +1,46 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:身份证号（一二代）
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 19:04:08
+ * @FilePath: \warblerjs-guide\docs\guide\reg\idReg.md
+-->
+
+# 身份证号（一二代）
+
+验证身份证号，支持 `一代身份证` 和 `二代身份证`。
+
+## 语法
+
+```js
+import { idReg } from 'warbler-js';
+const result = idReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const idReg = (value) => {
+  const reg = /^\d{6}((((((19|20)\d{2})(0[13-9]|1[012])(0[1-9]|[12]\d|30))|(((19|20)\d{2})(0[13578]|1[02])31)|((19|20)\d{2})02(0[1-9]|1\d|2[0-8])|((((19|20)([13579][26]|[2468][048]|0[48]))|(2000))0229))\d{3})|((((\d{2})(0[13-9]|1[012])(0[1-9]|[12]\d|30))|((\d{2})(0[13578]|1[02])31)|((\d{2})02(0[1-9]|1\d|2[0-8]))|(([13579][26]|[2468][048]|0[048])0229))\d{2}))(\d|X|x)$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { idReg } from 'warbler-js';
+const result1 = idReg('123456991010193')
+const result2 = idReg('15040419980309521x')
+
+console.log(result1) // true
+console.log(result2) // true
+```

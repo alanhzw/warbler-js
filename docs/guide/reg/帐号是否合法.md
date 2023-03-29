@@ -1,0 +1,46 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:帐号是否合法
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-14 09:35:08
+ * @FilePath: \warblerjs-guide\docs\guide\form\accountReg.md
+-->
+
+# 帐号是否合法
+
+验证账号，要求 `字母开头`，允许 `5-16` 字节，允许`字母数字下划线组合`。
+
+## 语法
+
+```js
+import { accountReg } from 'warbler-js';
+const result = accountReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const accountReg = (value) => {
+  const reg = /^[a-zA-Z]\w{4,15}$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { accountReg } from 'warbler-js';
+const result1 = accountReg('hanzhiwei')
+const result2 = accountReg('hanzhi_wei01')
+
+console.log(result1) // true
+console.log(result2) // true
+```

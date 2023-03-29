@@ -1,0 +1,48 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:同时含有数字和英文字母
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-14 09:34:33
+ * @FilePath: \warblerjs-guide\docs\guide\form\nlBothReg.md
+-->
+
+# 同时含有数字和英文字母
+
+验证字符串，必须同时含有 `数字` 和 `英文字母`。
+
+## 语法
+
+```js
+import { nlBothReg } from 'warbler-js';
+const result = nlBothReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const nlBothReg = (value) => {
+  const reg = /^(?=.*[a-zA-Z])(?=.*\d).+$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { nlBothReg } from 'warbler-js';
+const result1 = nlBothReg('1')
+const result2 = nlBothReg('aa')
+const result3 = nlBothReg('3aa')
+
+console.log(result1) // false
+console.log(result2) // false
+console.log(result3) // true
+```

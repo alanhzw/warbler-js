@@ -1,0 +1,48 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:根据函数名称移除函数数组的元素
+ * @Date: 2021-09-13 17:26:25
+ * @LastEditTime: 2021-10-29 11:23:07
+ * @FilePath: \warblerjs-guide\docs\guide\array\arrRemoveFunEle.md
+-->
+
+
+# 根据函数名称移除函数数组的元素
+
+## 语法
+
+```js
+import { arrRemoveFunEle } from 'warbler-js'
+const result = arrRemoveFunEle(arr, name)
+```
+
+## 参数
+
+- `arr` (**Array**) ： 需要删除元素的数组。
+- `name` (**String**) ： 将要删除的函数名称。
+
+
+## 返回值
+
+**Array** ： 删除元素后的数组。
+
+## 源码
+
+
+```js
+const arrRemoveFunEle = (arr, name) => arr.filter((i) => i.name !== name);
+```
+
+## 例子
+
+
+```js
+import { arrRemoveFunEle } from 'warbler-js'
+const fn1 = ()=>1;
+const fn2 = ()=>2;
+const fn3 = ()=>3;
+const fn4 = ()=>4;
+const funs = [fn1,fn2,fn3,fn4]
+const result = arrRemoveFunEle(funs,'fn1')
+console.log(result) //=> [fn2,fn3,fn4]
+```

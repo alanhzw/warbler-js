@@ -1,0 +1,147 @@
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-brand: #646cff !important;
+  --vp-c-brand-light: #747bff !important;
+  --vp-c-brand-lighter: #9499ff !important;
+  --vp-c-brand-lightest: #bcc0ff !important;
+  --vp-c-brand-dark: #535bf2 !important;
+  --vp-c-brand-darker: #454ce1 !important;
+  --vp-c-brand-dimm: rgba(100, 108, 255, 0.08) !important;
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: var(--vp-c-brand-light) !important;
+  --vp-button-brand-text: var(--vp-c-white) !important;
+  --vp-button-brand-bg: var(--vp-c-brand) !important;
+  --vp-button-brand-hover-border: var(--vp-c-brand-light) !important;
+  --vp-button-brand-hover-text: var(--vp-c-white) !important;
+  --vp-button-brand-hover-bg: var(--vp-c-brand-light) !important;
+  --vp-button-brand-active-border: var(--vp-c-brand-light) !important;
+  --vp-button-brand-active-text: var(--vp-c-white) !important;
+  --vp-button-brand-active-bg: var(--vp-button-brand-bg) !important;
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent !important;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff) !important;
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #bd34fe 50%,
+    #47caff 50%
+  ) !important;
+  --vp-home-hero-image-filter: blur(40px) !important;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px) !important;
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px) !important;
+  }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: var(--vp-c-brand) !important;
+  --vp-custom-block-tip-text: var(--vp-c-brand-darker) !important;
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm) !important;
+}
+
+.dark {
+  --vp-custom-block-tip-border: var(--vp-c-brand) !important;
+  --vp-custom-block-tip-text: var(--vp-c-brand-lightest) !important;
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm) !important;
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand) !important;
+}
+
+/**
+ * VitePress: Custom fix
+ * -------------------------------------------------------------------------- */
+
+/*
+  Use lighter colors for links in dark mode for a11y.
+  Also specify some classes twice to have higher specificity
+  over scoped class data attribute.
+*/
+.dark .vp-doc a,
+.dark .vp-doc a > code,
+.dark .VPNavBarMenuLink.VPNavBarMenuLink:hover,
+.dark .VPNavBarMenuLink.VPNavBarMenuLink.active,
+.dark .link.link:hover,
+.dark .link.link.active,
+.dark .edit-link-button.edit-link-button,
+.dark .pager-link .title {
+  color: var(--vp-c-brand-lighter) !important;
+}
+
+.dark .vp-doc a:hover,
+.dark .vp-doc a > code:hover {
+  color: var(--vp-c-brand-lightest) !important;
+  opacity: 1 !important;
+}
+
+/* Transition by color instead of opacity */
+.dark .vp-doc .custom-block a {
+  transition: color 0.25s !important;
+}
+
+header {
+  display: none;
+}
+
+:root {
+  --warbler-scroll-thumb-color: #686868;
+  --warbler-scroll-track-color: #424242;
+  --warbler-black: #000000;
+  --warbler-bg: #1e1e20;
+}
+
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 8px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  background-color: var(--warbler-scroll-thumb-color);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  /* 阴影 */
+  -webkit-box-shadow: inset 0 0 5px var(--warbler-black);
+  background: var(--warbler-scroll-track-color);
+}
+
+html,
+body {
+  background: var(--warbler-bg) !important;
+}

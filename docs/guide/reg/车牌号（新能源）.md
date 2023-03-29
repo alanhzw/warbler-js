@@ -1,0 +1,46 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:车牌号（新能源）
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 18:57:53
+ * @FilePath: \warblerjs-guide\docs\guide\reg\newCarsReg.md
+-->
+
+# 车牌号（新能源）
+
+验证车牌号，新能源。
+
+## 语法
+
+```js
+import { newCarsReg } from 'warbler-js';
+const result = newCarsReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const newCarsReg = (value) => {
+  const reg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z](?:((\d{5}[A-HJK])|([A-HJK][A-HJ-NP-Z0-9][0-9]{4}))|[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳])$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { newCarsReg } from 'warbler-js';
+const result1 = newCarsReg('京AD80234')
+const result2 = newCarsReg('辽D46234F')
+
+console.log(result1) // true
+console.log(result2) // true
+```

@@ -1,0 +1,48 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:座机
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 19:01:13
+ * @FilePath: \warblerjs-guide\docs\guide\reg\landlineReg.md
+-->
+
+# 座机
+
+验证国内座机号码。
+
+## 语法
+
+```js
+import { landlineReg } from 'warbler-js';
+const result = landlineReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const landlineReg = (value) => {
+  const reg = /^(?:(?:\d{3}-)?\d{8}|^(?:\d{4}-)?\d{7,8})(?:-\d+)?$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { landlineReg } from 'warbler-js';
+const result1 = landlineReg('0936-4211235')
+const result2 = landlineReg('89076543')
+const result3 = landlineReg('010-12345678-1234')
+
+console.log(result1) // true
+console.log(result2) // true
+console.log(result3) // true
+```

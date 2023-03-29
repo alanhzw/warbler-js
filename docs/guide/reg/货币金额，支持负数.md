@@ -1,0 +1,49 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:货币金额，支持负数
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 18:46:55
+ * @FilePath: \warblerjs-guide\docs\guide\reg\currencyReg.md
+-->
+
+# 货币金额，支持负数
+
+验证货币金额，支持 `负数` 、 `千分位分隔符`。
+
+## 语法
+
+```js
+import { currencyReg } from 'warbler-js';
+const result = currencyReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const currencyReg = (value) => {
+  const reg = /^-?\d+(,\d{3})*(\.\d{1,2})?$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { currencyReg } from 'warbler-js';
+const result1 = currencyReg('0')
+const result2 = currencyReg('-3')
+const result3 = currencyReg('3.99')
+const result4 = currencyReg('12,345,678.90')
+console.log(result1) // true
+console.log(result2) // true
+console.log(result3) // true
+console.log(result4) // true
+```

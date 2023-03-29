@@ -8,7 +8,10 @@
     "clean": "rimraf node_modules",
     "prepare": "husky install",
     "commit": "git-cz",
-    "commit:all": "git add . && git-cz"
+    "commit:all": "git add . && git-cz",
+    "docs:dev": "vitepress dev docs --port 5273",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [
     "JavaScript",
@@ -35,7 +38,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
     "rimraf": "^4.4.1",
-    "vite": "^4.2.1"
+    "vite": "^4.2.1",
+    "vitepress": "^1.0.0-alpha.63"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json}": [

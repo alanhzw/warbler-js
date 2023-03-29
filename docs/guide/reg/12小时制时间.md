@@ -1,0 +1,46 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:12小时制时间
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-14 09:47:32
+ * @FilePath: \warblerjs-guide\docs\guide\form\hmsReg.md
+-->
+
+# 12小时制时间
+
+验证时间，`12` 小时制，格式符合 `hh:mm:ss` 。
+
+## 语法
+
+```js
+import { hmsReg } from 'warbler-js';
+const result = hmsReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const hmsReg = (value) => {
+  const reg = /^(?:1[0-2]|0?[1-9]):[0-5]\d:[0-5]\d$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { hmsReg } from 'warbler-js';
+const result1 = hmsReg('09:02:34')
+const result2 = hmsReg('13:41:25')
+
+console.log(result1) // true
+console.log(result2) // false
+```

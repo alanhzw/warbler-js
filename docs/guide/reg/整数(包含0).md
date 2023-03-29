@@ -1,0 +1,52 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:整数(包含0)
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 18:45:44
+ * @FilePath: \warblerjs-guide\docs\guide\reg\integerReg.md
+-->
+
+# 整数(包含0)
+
+验证所有整数，包括 **0** 、**正整数**、**负整数**。
+
+## 语法
+
+```js
+import { integerReg } from 'warbler-js';
+const result = integerReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const integerReg = (value) => {
+  const reg = /^(0|[1-9][0-9]*|-[1-9][0-9]*)$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { integerReg } from 'warbler-js';
+const result1 = integerReg('0')
+const result2 = integerReg('-3')
+const result3 = integerReg('4')
+const result4 = integerReg('1.1')
+const result5 = integerReg('一尾流莺')
+
+console.log(result1) // true
+console.log(result2) // true
+console.log(result3) // true
+console.log(result4) // false
+console.log(result5) // false
+```

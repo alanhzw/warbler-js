@@ -1,0 +1,50 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:中国手机号(严格)
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 18:52:41
+ * @FilePath: \warblerjs-guide\docs\guide\reg\strictTelReg.md
+-->
+
+# 中国手机号(严格)
+
+验证手机号，**11** 位，必须是工信部 `2019` 年最新公布的手机号段。
+
+## 语法
+
+```js
+import { strictTelReg } from 'warbler-js';
+const result = strictTelReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const strictTelReg = (value) => {
+  const reg = /^(?:(?:\+|00)86)?1(?:(?:3[\d])|(?:4[5-79])|(?:5[0-35-9])|(?:6[5-7])|(?:7[0-8])|(?:8[\d])|(?:9[189]))\d{8}$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { strictTelReg } from 'warbler-js';
+const result1 = strictTelReg('008617612340174')
+const result2 = strictTelReg('+8617612340174')
+const result3 = strictTelReg('19912340174')
+const result4 = strictTelReg('12912340174')
+
+console.log(result1) // true
+console.log(result2) // true
+console.log(result3) // true
+console.log(result4) // false
+```

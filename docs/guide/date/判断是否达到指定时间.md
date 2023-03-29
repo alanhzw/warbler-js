@@ -1,0 +1,49 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:判断是否达到指定时间
+ * @Date: 2021-09-26 18:03:06
+ * @LastEditTime: 2021-10-18 11:37:10
+ * @FilePath: \warblerjs-guide\docs\guide\date\isScheduled.md
+-->
+# 判断是否达到指定时间
+
+通常用来做定时任务，达到指定时间后更改视图等操作。
+
+## 语法
+
+
+```js
+import { isScheduled } from 'warbler-js'
+const result = isScheduled(date)
+```
+
+## 参数
+
+- `date` (**String**) ： 指定日期，指定日期，格式为"YYYY-MM-DD HH:mm:ss"。
+
+## 返回值
+
+**Boolean** ：`true` 达到指定时间， `false` 没有达到指定时间。
+
+
+## 源码
+
+```js
+const isScheduled = (date) => {
+  const date1 = new Date();
+  const date2 = new Date(Date.parse(date));
+  return date1 > date2;
+};
+```
+
+## 例子
+
+
+```js
+import { isScheduled } from 'warbler-js'
+//测试日期为2021-10-18
+const result1 = isScheduled('2021-10-17 00:00:00')
+const result2 = isScheduled('2021-10-19 00:00:00')
+console.log(result1) //=> true
+console.log(result2) //=> false
+```

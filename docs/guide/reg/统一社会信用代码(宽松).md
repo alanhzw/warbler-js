@@ -1,0 +1,46 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:统一社会信用代码(宽松)
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 19:09:34
+ * @FilePath: \warblerjs-guide\docs\guide\reg\codsReg.md
+-->
+
+# 统一社会信用代码(宽松)
+
+验证统一社会信用代码，`15位` / `18位` / `20位` 的 `数字` 或者 `字母`。
+
+## 语法
+
+```js
+import { codsReg } from 'warbler-js';
+const result = codsReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const codsReg = (value) => {
+  const reg = /^(([0-9A-Za-z]{15})|([0-9A-Za-z]{18})|([0-9A-Za-z]{20}))$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { codsReg } from 'warbler-js';
+const result1 = codsReg('9134052155323005XL')
+const result2 = codsReg('91330526MA345BR13A')
+
+console.log(result1) // true
+console.log(result2) // true
+```

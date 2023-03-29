@@ -1,0 +1,46 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:密码强度校验
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-14 09:31:57
+ * @FilePath: \warblerjs-guide\docs\guide\form\passwordReg.md
+-->
+
+# 密码强度校验
+
+验证密码强度，最少 `6` 位，包括至少 `1` 个大写字母，`1` 个小写字母，`1` 个数字，`1` 个特殊字符。
+
+## 语法
+
+```js
+import { passwordReg } from 'warbler-js';
+const result = passwordReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const passwordReg = (value) => {
+  const reg = /^\S*(?=\S{6,})(?=\S*\d)(?=\S*[A-Z])(?=\S*[a-z])(?=\S*[!@#$%^&*? ])\S*$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { passwordReg } from 'warbler-js';
+const result1 = passwordReg('asd12312321')
+const result2 = passwordReg('Hzw!dasd15')
+
+console.log(result1) // false
+console.log(result2) // true
+```

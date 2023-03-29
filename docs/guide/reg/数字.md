@@ -1,0 +1,50 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:数字
+ * @Date: 2021-09-13 18:18:23
+ * @LastEditTime: 2021-10-13 18:47:17
+ * @FilePath: \warblerjs-guide\docs\guide\reg\numberReg.md
+-->
+
+# 数字
+
+验证数字，包含 `正数`、`负数`、`整数`、`小数`、`0` 。
+
+## 语法
+
+```js
+import { numberReg } from 'warbler-js';
+const result = numberReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const numberReg = (value) => {
+  const reg = /^(\-|\+)?\d+(\.\d+)?$/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { numberReg } from 'warbler-js';
+const result1 = numberReg('0')
+const result2 = numberReg('-3.3')
+const result3 = numberReg('4.4')
+const result4 = numberReg('3')
+
+console.log(result1) // true
+console.log(result2) // true
+console.log(result3) // true
+console.log(result4) // true
+```
