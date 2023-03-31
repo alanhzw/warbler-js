@@ -16,7 +16,13 @@ export default defineConfig({
     },
     lastUpdatedText: '最近更新',
     socialLinks: [],
-    sidebar: sidebar.getSidebar(),
+    sidebar: [
+      {
+        text: '快速开始',
+        link: '/',
+      },
+      ...sidebar.getSidebar(),
+    ],
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present warbler',
