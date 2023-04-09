@@ -4,14 +4,14 @@
   "description": "A JavaScript utility library , JavaScript 实用工具库",
   "main": "src/index.js",
   "scripts": {
-    "dev": "vite",
+    "test": "vite",
     "clean": "rimraf node_modules",
     "prepare": "husky install",
     "commit": "git-cz",
     "commit:all": "git add . && git-cz",
-    "docs:dev": "vitepress dev docs --port 5273",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs --port 5273",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "keywords": [
     "JavaScript",
