@@ -1,0 +1,38 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# github actions 中文文档 https://docs.github.com/cn/actions/getting-started-with-github-actions
+name: deploy for warbler-js
+
+on:
+  push:
+    branches:
+      - 'main' # 只针对 main 分支
+    paths:
+      - 'dist/**'
+      - '.github/workflows/*'
+      # - 'husky/**'
+      # - '.vscode/**'
+      # - 'Docker/**'
+      # - 'public/**'
+      # - 'src/**'
+      #
+
+jobs:
+  deploy-dev:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: set ssh key # 临时设置 ssh key
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{secrets.WFP_ID_RSA}}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan "82.156.231.91" >> ~/.ssh/known_hosts
+      - name: deploy # 部署
+        run: |
+          ssh root@82.156.231.91 "
+            cd /home/work/warbler-fe/warbler-js;
+            git pull;
+            docker cp dist/. 46:/usr/share/nginx/html;
+          "
