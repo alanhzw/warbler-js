@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 import sidebar from './sidebar/index';
 
 export default defineConfig({
+  outDir: '../dist',
   lang: 'en-US',
   title: 'warbler-js',
   description: 'A JavaScript utility library',
