@@ -56,6 +56,12 @@
   }
 }
 
+@media (max-width: 960px) {
+  .VPDoc {
+    padding-top: 64px !important;
+  }
+}
+
 /**
  * Component: Custom Block
  * -------------------------------------------------------------------------- */
@@ -145,4 +151,8 @@ header {
 html,
 body {
   background: var(--warbler-bg) !important;
+}
+
+.VPLocalNav {
+  top: 64px !important;
 }

@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:数组对象去重(不会修改原数组)
  * @Date: 2021-09-10 11:15:33
- * @LastEditTime: 2021-10-29 15:30:43
- * @FilePath: \warblerJS\src\array\duplicate\arrObjectWithoutDupli.js
+ * @LastEditTime: 2023-04-14 14:38:42
+ * @FilePath: \warbler-js\src\array\duplicate\arrObjectWithoutDupli.js
  */
 
 /**
@@ -12,13 +12,15 @@
  * @param { String } key 根据对象的key去重
  * @return { Array } 数组去重后的结果
  */
-const obj = {};
-const arrObjectWithoutDupli = (arr, key) => arr.reduce((cur, next) => {
-  if (!obj[next[key]]) {
-    obj[next[key]] = cur.push(next);
-  }
-  return cur;
-}, []);
+const arrObjectWithoutDupli = (arr, key) => {
+  const obj = {};
+  return arr.reduce((cur, next) => {
+    if (!obj[next[key]]) {
+      obj[next[key]] = cur.push(next);
+    }
+    return cur;
+  }, []);
+};
 
 /** 用法
 

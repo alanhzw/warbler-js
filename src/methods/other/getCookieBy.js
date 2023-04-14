@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:获取浏览器Cookie的值
  * @Date: 2021-10-08 11:31:11
- * @LastEditTime: 2021-10-08 14:26:30
- * @FilePath: \warblerJS\src\methods\getCookieBy.js
+ * @LastEditTime: 2023-04-14 16:23:22
+ * @FilePath: \warbler-js\src\methods\other\getCookieBy.js
  */
 
 /**
@@ -15,7 +15,7 @@ const getCookieBy = (name) => `; ${document.cookie}`.split(`; ${name}=`).pop().s
 
 /** 用法
 const result = getCookieBy('name')
-console.log(result) //=>'韩志伟'
+console.log(result) //=>'warbler'
  */
 
 export default getCookieBy;

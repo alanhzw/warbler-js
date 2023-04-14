@@ -10,8 +10,8 @@ sidebarDepth: 1
 
 ### 通过 npm
 
-```js
-npm i --save warbler-js
+```shell
+npm i warbler-js --save-dev
 ```
 
 ### 通过 CDN

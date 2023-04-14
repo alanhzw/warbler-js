@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-10 14:42:22
- * @LastEditTime: 2023-03-28 15:07:48
+ * @LastEditTime: 2023-04-14 16:22:23
  * @FilePath: \warbler-js\.eslintrc.js
  */
 module.exports = {
@@ -24,5 +24,6 @@ module.exports = {
     'max-len': 'off',
     // 禁用不必要的转义符
     'no-useless-escape': 'off',
+    'object-curly-newline': 0,
   },
 };

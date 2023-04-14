@@ -18,9 +18,7 @@ import getCurrentUrl from './other/getCurrentUrl';
 // 滚动到页面顶部
 import scrollToTop from './other/scrollToTop';
 
-export {
-  imitateDelay,
-  loadScript,
-  getCurrentUrl,
-  scrollToTop,
-};
+// 滚动到页面顶部
+import getCookieBy from './other/getCookieBy';
+
+export { imitateDelay, loadScript, getCurrentUrl, scrollToTop, getCookieBy };
