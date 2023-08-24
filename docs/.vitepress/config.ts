@@ -22,6 +22,10 @@ export default defineConfig({
         text: '快速开始',
         link: '/',
       },
+      {
+        text: '更新日志',
+        link: '/changelog',
+      },
       ...sidebar.getSidebar(),
     ],
     footer: {

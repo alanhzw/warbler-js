@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,N as l}from"./chunks/framework.45fdf5ea.js";const C=JSON.parse('{"title":"微信号","description":"","frontmatter":{},"headers":[],"relativePath":"guide/reg/微信号.md","lastUpdated":1692872086000}'),o={name:"guide/reg/微信号.md"},e=l("",12),p=[e];function t(c,r,D,y,F,i){return a(),n("div",null,p)}const d=s(o,[["render",t]]);export{C as __pageData,d as default};
