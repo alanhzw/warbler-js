@@ -2,13 +2,12 @@
  * @Author: 一尾流莺
  * @Description:获取 sidebar
  * @Date: 2023-03-28 16:27:35
- * @LastEditTime: 2023-03-28 18:22:45
+ * @LastEditTime: 2023-08-24 18:13:44
  * @FilePath: \warbler-js\docs\.vitepress\sidebar\index.ts
  */
 
 import path from 'path';
 import fs from 'fs';
-
 const typeMap = {
   array: '数组',
   boolean: '布尔值',
@@ -19,6 +18,13 @@ const typeMap = {
   object: '对象',
   reg: '正则',
   string: '字符',
+  duplicate: '去重',
+  check: '检测',
+  filter: '过滤',
+  find: '查找',
+  calculation: '计算',
+  remove: '移除',
+  other: '其它',
 };
 
 class Sidebar {
@@ -29,76 +35,81 @@ class Sidebar {
     return path.resolve(__dirname, '../', '../', 'guide');
   }
 
-  // 获取 guide 目录下所有的类型
-  getGuideTypes() {
-    // 获取 guide 所在目录
-    const guideDirPath = this.getGuidePath();
-    // 获取 guide 目录下所有的类型
-    const guideDirTypes = fs.readdirSync(guideDirPath);
-    return guideDirTypes;
-  }
-
-  // 根据 guideType 获取该类型下的所有文档名称
-  getFilesByGuideType(guideType: string) {
-    // 获取 guide 所在目录
-    const guideDirPath = this.getGuidePath();
-    // 获取 guideType 所在目录
-    const guideTypePath = path.resolve(guideDirPath, guideType);
-    // 获取 guideTypePath 下的所有 md 文件
-    const guideTypeFiles = fs.readdirSync(guideTypePath);
-    // 去掉文件的后缀
-    const fileNames = guideTypeFiles.map((fileName) => {
-      const fullName = fileName.split('.')[0];
-      return {
-        link: `/guide/${guideType}/${fileName}`,
-        text: fullName,
-      };
-    });
-    // 返回该类型下的文档名称
-    return fileNames;
-  }
-
-  // 获取所有的 guideType 以及对应的 guideType 的详情
-  getAllGuideInfo() {
-    // 获取 guide 目录下所有的类型
-    const guideDirTypes = this.getGuideTypes();
-    // 遍历获取所有的 guideType 以及对应的 guideType 的详情
-    const allGuideInfo = guideDirTypes.map((guideType) => {
-      // 获取 guideType 下所有的文档名称
-      const files = this.getFilesByGuideType(guideType);
-      return {
-        // 文档类型
-        guideType,
-        // 文档
-        files,
-        // 文档数量
-        quantity: files.length,
-        // 文档中文名称
-        guideName: typeMap[guideType],
-      };
-    });
-    return allGuideInfo;
-  }
   // 动态计算 sidebar
   getSidebar() {
-    // 获取所有的 guideType 以及对应的 guideType 的详情
-    const allGuideInfo = this.getAllGuideInfo();
-    // 形成 sidebar 要求的格式
-    const sidebar = allGuideInfo.map((info) => {
-      // 形成 sidebar-item 要求的格式
-      const items = info.files.map((item) => {
-        return {
-          text: item.text,
-          link: item.link,
-        };
-      });
-      return {
-        text: `${info.guideName}(${info.quantity})`,
-        collapsed: true,
-        items,
-      };
-    });
+    // 获取 guide 所在目录
+    const guideDirPath = this.getGuidePath();
+    // 自动根据目录生成树形结构
+    const sidebar = generateTree(guideDirPath);
     return sidebar;
   }
 }
+
+// 生成侧边栏 Tree 结构
+function generateTree(directory) {
+  // 定义空的树
+  const tree: any[] = [];
+  // 读取目录下的文件
+  const files = fs.readdirSync(directory);
+
+  // 遍历文件
+  files.forEach((file) => {
+    // 获取文件的完整路径
+    const filePath = path.join(directory, file);
+    // 获取文件的状态信息
+    const stats = fs.statSync(filePath);
+    // 判断文件是否是一个目录
+    if (stats.isDirectory()) {
+      // 如果是一个目录，则递归遍历并生成子树
+      const subTree = generateTree(filePath);
+      // 获取当前目录下的子文件的数量
+      const filesTotal = getTotalFiles(filePath);
+      tree.push({
+        text: `${typeMap[file]}(${filesTotal})`,
+        collapsed: true,
+        items: subTree,
+      });
+    } else {
+      // 去掉文件的后缀
+      const fileName = file.split('.')[0];
+      // 如果是一个文件，则直接添加到当前层级的树中
+      tree.push({
+        text: fileName,
+        link: `/guide${filePath.split('guide')[1].replaceAll('\\', '/')}`,
+      });
+    }
+  });
+
+  return tree;
+}
+
+// 获取指定目录下所有子目录中的文件数量总和
+function getTotalFiles(directory) {
+  // 获取指定目录下的文件数量,不包含子目录
+  const items = fs.readdirSync(directory);
+  // 初始化总数为 0
+  let total = 0;
+  // 遍历子目录
+  items.forEach((item) => {
+    // 拼接子目录路径
+    const filePath = path.join(directory, item);
+    // 获取子目录的状态
+    const stats = fs.statSync(filePath);
+    // 判断子目录是否是一个文件
+    if (stats.isFile()) {
+      // 如果是文件 总数加 1
+      total += 1;
+    }
+    // 如果是一个目录 则递归遍历
+    else if (stats.isDirectory()) {
+      // 递归遍历
+      const subTotal = getTotalFiles(filePath);
+      // 总数累加
+      total += subTotal;
+    }
+  });
+  // 返回总数
+  return total;
+}
+
 export default Sidebar.sidebar;

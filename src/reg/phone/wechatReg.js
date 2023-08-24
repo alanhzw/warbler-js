@@ -22,7 +22,7 @@ const wechatReg = (value) => {
 
 /** 用法
 
-  const result1 = wechatReg('duwanyu515')
+  const result1 = wechatReg('yiweiliuying0309')
   const result2 = wechatReg('warbler_js')
 
   console.log(result1) // true

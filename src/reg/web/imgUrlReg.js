@@ -21,9 +21,9 @@ const imgUrlReg = (value) => {
 // }
 
 /** 用法
-  const result1 = imgUrlReg('http://warbler.duwanyu.com/wc.png')
-  const result2 = imgUrlReg('https://warbler.duwanyu.com/wc.png')
-  const result3 = imgUrlReg('warbler.duwanyu.com/wc.png')
+  const result1 = imgUrlReg('http://www.warblerfe.top/wc.png')
+  const result2 = imgUrlReg('https://www.warblerfe.top/wc.png')
+  const result3 = imgUrlReg('www.warblerfe.top/wc.png')
   console.log(result1) // true
   console.log(result2) // true
   console.log(result3) // false

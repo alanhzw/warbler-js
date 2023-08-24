@@ -1,0 +1,16 @@
+.github
+.history
+.husky
+.vscode
+dist
+Docker
+docs
+node_modules
+.cz-config.js
+.eslintignore
+.eslintrc.js
+.gitignore
+.npmignore
+commitlint.config.js
+index.html
+yarn.lock

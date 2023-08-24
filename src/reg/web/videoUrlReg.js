@@ -21,9 +21,9 @@ const videoUrlReg = (value) => {
 // }
 
 /** 用法
-  const result1 = videoUrlReg('http://warbler.duwanyu.com/wc.mp4')
-  const result2 = videoUrlReg('https://warbler.duwanyu.com/wc.mp4')
-  const result3 = videoUrlReg('warbler.duwanyu.com/wc.mp4')
+  const result1 = videoUrlReg('http://www.warblerfe.top/wc.mp4')
+  const result2 = videoUrlReg('https://www.warblerfe.top/wc.mp4')
+  const result3 = videoUrlReg('www.warblerfe.top/wc.mp4')
   console.log(result1) // true
   console.log(result2) // true
   console.log(result3) // false

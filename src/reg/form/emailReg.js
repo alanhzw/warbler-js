@@ -22,7 +22,7 @@ const emailReg = (value) => {
 
 /** 用法
   const result1 = emailReg('1741847465@qq.com')
-  const result2 = emailReg('http://warbler.duwanyu.com/')
+  const result2 = emailReg('http://www.warblerfe.top/')
   console.log(result1) // true
   console.log(result2) // false
  */

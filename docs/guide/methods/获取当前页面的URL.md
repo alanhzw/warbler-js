@@ -6,14 +6,13 @@
  * @FilePath: \warblerjs-guide\docs\guide\methods\getCurrentUrl.md
 -->
 
-# 获取当前页面的URL
+# 获取当前页面的 URL
 
 ## 语法
 
-
 ```js
 import { getCurrentUrl } from 'warbler-js';
-const result = getCurrentUrl()
+const result = getCurrentUrl();
 ```
 
 ## 参数
@@ -26,16 +25,14 @@ const result = getCurrentUrl()
 
 ## 源码
 
-
 ```js
 const getCurrentUrl = () => window.location.href;
 ```
 
 ## 例子
 
-
 ```js
 import { getCurrentUrl } from 'warbler-js';
-const result = getCurrentUrl()
-console.log(result) //=>http://warblerjs.duwanyu.com
+const result = getCurrentUrl();
+console.log(result); //=>http://www.warblerfe.top/warbler/js
 ```

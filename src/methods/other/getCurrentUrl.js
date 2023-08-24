@@ -15,7 +15,7 @@ const getCurrentUrl = () => window.location.href;
 
 /** 用法
 const result = getCurrentUrl()
-console.log(result) //=>http://warblerjs.duwanyu.com
+console.log(result) //=>http://www.warblerfe.top
  */
 
 export default getCurrentUrl;

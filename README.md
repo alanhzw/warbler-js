@@ -2,28 +2,27 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-10 15:28:19
- * @LastEditTime: 2021-10-15 15:10:32
- * @FilePath: \warblerJS\README.md
+ * @LastEditTime: 2023-08-24 15:53:34
+ * @FilePath: \warbler-js\README.md
 -->
 
 # 简介
 
 ## 安装
 
-### 通过npm
-
+### 通过 npm
 
 ```js
 npm i --save warbler-js
 ```
 
-## 什么是warbler-js
+## 什么是 warbler-js
 
 `warbler-js` 是一个 `JavaScript` 实用工具库。
 
 ## 说明文档
 
-👉👉 [warbler-js](http://warblerjs.duwanyu.com/)
+👉👉 [warbler-js](http://www.warblerfe.top/warbler/js)
 
 ## 开发者
 
@@ -35,8 +34,4 @@ npm i --save warbler-js
 
 👉👉 [gitee](https://gitee.com/hzw_0174)
 
-👉👉 [个人博客](https://www.duwanyu.com/)
-
-👉👉 [流莺起始页](http://warbler.duwanyu.com/)
-
-
+👉👉 [个人博客](http://www.warblerfe.top/warbler/js)

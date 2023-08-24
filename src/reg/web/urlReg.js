@@ -21,11 +21,11 @@ const urlReg = (value) => {
 // }
 
 /** 用法
-  const result1 = urlReg('http://warblerjs.duwanyu.com')
-  const result2 = urlReg('https://warblerjs.duwanyu.com')
-  const result3 = urlReg('https://warblerjs.duwanyu.com:3000')
-  const result4 = urlReg('https://warblerjs.duwanyu.com?name=hzw&age=18')
-  const result5 = urlReg('https://warblerjs.duwanyu.com/#/name=hzw&age=18')
+  const result1 = urlReg('http://www.warblerfe.top')
+  const result2 = urlReg('https://http://www.warblerfe.top')
+  const result3 = urlReg('https://http://www.warblerfe.top:3000')
+  const result4 = urlReg('https://http://www.warblerfe.top?name=hzw&age=18')
+  const result5 = urlReg('https://http://www.warblerfe.top/#/name=hzw&age=18')
 
   console.log(result1) // true
   console.log(result2) // true

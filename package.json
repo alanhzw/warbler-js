@@ -1,6 +1,6 @@
 {
   "name": "warbler-js",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "A JavaScript utility library , JavaScript 实用工具库",
   "main": "src/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/alanhzw/warbler-js"
   },
-  "homepage": "http://warblerjs.duwanyu.com",
+  "homepage": "http://www.warblerfe.top/warbler/js",
   "author": "warbler",
   "license": "ISC",
   "devDependencies": {
@@ -38,8 +38,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
     "rimraf": "^4.4.1",
-    "vite": "^4.2.1",
-    "vitepress": "^1.0.0-alpha.63"
+    "vite": "^4.4.9",
+    "vitepress": "1.0.0-alpha.63"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json}": [

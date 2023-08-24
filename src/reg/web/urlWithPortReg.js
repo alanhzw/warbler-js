@@ -21,9 +21,9 @@ const urlWithPortReg = (value) => {
 // }
 
 /** 用法
-  const result1 = urlWithPortReg('http://warblerjs.duwanyu.com')
-  const result2 = urlWithPortReg('http://warblerjs.duwanyu.com:3000')
-  const result3 = urlWithPortReg('https://warblerjs.duwanyu.com:3000')
+  const result1 = urlWithPortReg('http://www.warblerfe.top')
+  const result2 = urlWithPortReg('http://www.warblerfe.top:3000')
+  const result3 = urlWithPortReg('https://http://www.warblerfe.top:3000')
 
   console.log(result1) // false
   console.log(result2) // true
