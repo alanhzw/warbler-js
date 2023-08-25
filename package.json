@@ -44,12 +44,15 @@
     "release-it": "^16.1.5",
     "rimraf": "^4.4.1",
     "vite": "^4.4.9",
-    "vitepress": "1.0.0-alpha.63"
+    "vitepress": "^1.0.0-alpha.76"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json}": [
       "eslint --fix"
     ]
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "config": {
     "commitizen": {

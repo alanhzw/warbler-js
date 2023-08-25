@@ -7,13 +7,19 @@ lastUpdated: true
 
 ## 仓库地址
 
-👉👉 [Github](https://github.com/alanhzw/warbler-js)
+👉👉 [GitHub](https://github.com/alanhzw/warbler-js)
 
 👉👉 [NPM](https://www.npmjs.com/package/warbler-js)
 
 ## 安装
 
 ### 通过 npm
+
+::: tip
+
+本工具适基于 `ESM` 规范编写，请在使用中确认您的环境是否支持 `ESM` 规范。
+
+:::
 
 ```shell
 npm i warbler-js --save-dev

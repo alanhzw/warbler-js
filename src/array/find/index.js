@@ -1,6 +1,6 @@
 /*
  * @Author: 一尾流莺
- * @Description:查找相关的方法
+ * @Description:查找
  * @Date: 2021-11-02 16:41:57
  * @LastEditTime: 2021-11-02 16:43:32
  * @FilePath: \warblerJS\src\array\find\index.js
@@ -24,11 +24,4 @@ import arrSimilarity from './arrSimilarity';
 // 获取数组二相对于数组一不同的元素
 import getDifferenceFrom from './getDifferenceFrom';
 
-export {
-  minArray,
-  maxArray,
-  findObjectInArray,
-  arrDifference,
-  arrSimilarity,
-  getDifferenceFrom,
-};
+export { minArray, maxArray, findObjectInArray, arrDifference, arrSimilarity, getDifferenceFrom };

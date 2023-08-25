@@ -2,12 +2,13 @@
  * @Author: 一尾流莺
  * @Description:获取 sidebar
  * @Date: 2023-03-28 16:27:35
- * @LastEditTime: 2023-08-25 10:41:08
+ * @LastEditTime: 2023-08-25 16:15:41
  * @FilePath: \warbler-js\docs\.vitepress\sidebar\index.ts
  */
 
 import path from 'path';
 import fs from 'fs';
+
 const typeMap = {
   array: '数组',
   boolean: '布尔值',
@@ -25,6 +26,14 @@ const typeMap = {
   calculation: '计算',
   remove: '移除',
   other: '其它',
+  random: '随机',
+  judge: '判断',
+  obtain: '获取',
+  exchange: '转换',
+  sort: '排除',
+  form: '表单',
+  phone: '号码',
+  web: '网络',
 };
 
 class Sidebar {
@@ -64,6 +73,7 @@ function generateTree(directory) {
       const subTree = generateTree(filePath);
       // 获取当前目录下的子文件的数量
       const filesTotal = getTotalFiles(filePath);
+
       tree.push({
         text: `${typeMap[file]}(${filesTotal})`,
         collapsed: true,
@@ -73,6 +83,7 @@ function generateTree(directory) {
       // 去掉文件的后缀
       const fileName = file.split('.')[0];
       const link = `/guide${filePath.split('guide')[1].replaceAll('\\', '/')}`;
+      // console.log(`- [${fileName}](${link})`);
       // 如果是一个文件，则直接添加到当前层级的树中
       tree.push({
         text: fileName,

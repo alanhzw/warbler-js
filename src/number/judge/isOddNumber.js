@@ -11,15 +11,15 @@
  * @param { Number } num 目标数字
  * @return { Boolean } true 奇数 false 偶数
  */
-const isEvenNumber = (num) => num % 2 === 1;
+const isOddNumber = (num) => num % 2 === 1;
 
 /** 用法
 
-  const result1 = isEvenNumber(4)
-  const result2 = isEvenNumber(5)
+  const result1 = isOddNumber(4)
+  const result2 = isOddNumber(5)
   console.log(result1) //false
   console.log(result2) //true
 
  */
 
-export default isEvenNumber;
+export default isOddNumber;

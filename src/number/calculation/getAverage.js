@@ -1,13 +1,13 @@
 /*
  * @Author: 一尾流莺
- * @Description:获取参数的平均数值
+ * @Description: 计算参数的平均值
  * @Date: 2021-09-10 14:58:17
- * @LastEditTime: 2021-09-10 17:28:18
- * @FilePath: \warblerJS\src\number\getAverage.js
+ * @LastEditTime: 2023-08-25 15:39:54
+ * @FilePath: \warbler-js\src\number\calculation\getAverage.js
  */
 
 /**
- * @description: 获取参数的平均数值
+ * @description: 计算参数的平均值
  * @param { Number } num 目标数字,不限制参数数量
  * @return { Number } 所有参数的平均数
  */
