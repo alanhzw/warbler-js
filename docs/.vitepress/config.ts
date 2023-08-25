@@ -9,7 +9,9 @@ export default defineConfig({
   lastUpdated: true,
   appearance: 'dark',
   themeConfig: {
-    outlineTitle: '目录',
+    outlineTitle: '大纲',
+    sidebarMenuLabel: '目录',
+    returnToTopLabel: '回到顶部',
     siteTitle: 'warbler-js',
     nav: [],
     docFooter: {

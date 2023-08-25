@@ -9,6 +9,8 @@ lastUpdated: true
 
 👉👉 [Github](https://github.com/alanhzw/warbler-js)
 
+👉👉 [NPM](https://www.npmjs.com/package/warbler-js)
+
 ## 安装
 
 ### 通过 npm
