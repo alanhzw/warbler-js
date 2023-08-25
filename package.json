@@ -11,7 +11,10 @@
     "commit:all": "git add . && git-cz",
     "dev": "vitepress dev docs --port 5273",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "release:major": "release-it --increment major",
+    "release:minor": "release-it --increment minor",
+    "release:patch": "release-it --increment patch"
   },
   "keywords": [
     "JavaScript",
@@ -37,6 +40,7 @@
     "eslint-plugin-import": "^2.27.5",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
+    "release-it": "^16.1.5",
     "rimraf": "^4.4.1",
     "vite": "^4.4.9",
     "vitepress": "1.0.0-alpha.63"

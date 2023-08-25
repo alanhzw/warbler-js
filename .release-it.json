@@ -1,0 +1,25 @@
+{
+  "git": {
+    "tag": true,
+    "tagName": "v${version}",
+    "tagAnnotation": "Release %s",
+    "commit": true,
+    "commitMessage": "版本更新: release %s",
+    "commitArgs": ["-S"],
+    "push": true,
+    "pushArgs": ["--follow-tags"],
+    "requireCleanWorkingDir": false,
+    "requireCommits": false
+  },
+  "github": {
+    "release": true,
+    "allowSameVersion": true,
+    "ignoreVersion": true,
+    "draft": false
+  },
+  "npm": {
+    "publish": true,
+    "allowSameVersion": true,
+    "ignoreVersion": true
+  }
+}

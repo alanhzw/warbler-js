@@ -9,6 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   appearance: 'dark',
   themeConfig: {
+    outlineTitle: '目录',
     siteTitle: 'warbler-js',
     nav: [],
     docFooter: {
