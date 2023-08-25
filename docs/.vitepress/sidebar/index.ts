@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:获取 sidebar
  * @Date: 2023-03-28 16:27:35
- * @LastEditTime: 2023-08-24 18:47:53
+ * @LastEditTime: 2023-08-25 10:41:08
  * @FilePath: \warbler-js\docs\.vitepress\sidebar\index.ts
  */
 
@@ -73,7 +73,6 @@ function generateTree(directory) {
       // 去掉文件的后缀
       const fileName = file.split('.')[0];
       const link = `/guide${filePath.split('guide')[1].replaceAll('\\', '/')}`;
-      console.log(`- [${fileName}](${link})`);
       // 如果是一个文件，则直接添加到当前层级的树中
       tree.push({
         text: fileName,

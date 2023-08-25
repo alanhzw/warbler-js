@@ -1,6 +1,6 @@
 {
   "git": {
-    "commitMessage": "chore(release): v${version}",
+    "commitMessage": "📦 版本: v${version}",
     "push": true,
     "commit": true,
     "tag": true,
