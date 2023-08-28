@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:中国手机号, 根据工信部2019年最新公布的手机号段
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-09 17:14:52
- * @FilePath: \warblerJS\src\reg\strictTelReg.js
- */
-
 /**
  * @description: 中国手机号(严格), 根据工信部2019年最新公布的手机号段
  * @param { String } value 待验证字符串

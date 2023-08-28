@@ -1,10 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:生成范围内的随机数
- * @Date: 2021-09-17 17:07:59
- * @LastEditTime: 2021-09-17 17:09:20
- * @FilePath: \warblerJS\src\number\randomInRange.js
- */
 /**
  * @description: 生成范围内的随机数
  * @param { Number} min 生成随机数的最小范围

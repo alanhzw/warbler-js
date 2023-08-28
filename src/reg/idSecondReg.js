@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:身份证号码(二代)最后一位是校验位,可能为数字或字符X
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 16:12:42
- * @FilePath: \warblerJS\src\reg\phone\idSecondReg.js
- */
-
 /**
  * @description: 身份证号码(二代))
  * @param { String } value 待验证字符串

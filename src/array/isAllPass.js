@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:检测所有元素是否符合要求
- * @Date: 2021-09-16 16:58:54
- * @LastEditTime: 2021-09-16 17:03:46
- * @FilePath: \warblerJS\src\array\isAllPass.js
- */
-
 /**
  * @description: 检测所有元素是否符合要求
  * @param { Array } arr 需要检测的数组。

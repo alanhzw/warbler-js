@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:正整数(包含0)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 18:06:52
- * @FilePath: \warblerJS\src\reg\number\zeroPositiveIntegerReg.js
- */
-
 /**
  * @description: 正整数(包含0)
  * @param { String } value 待验证字符串

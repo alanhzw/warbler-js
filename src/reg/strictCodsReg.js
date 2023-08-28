@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:统一社会信用代码(严格)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 11:49:34
- * @FilePath: \warblerJS\src\reg\life\strictCodsReg.js
- */
-
 /**
  * @description: 统一社会信用代码(严格)
  * @param { String } value 待验证字符串

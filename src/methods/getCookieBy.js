@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:获取浏览器Cookie的值
- * @Date: 2021-10-08 11:31:11
- * @LastEditTime: 2023-08-28 14:51:04
- * @FilePath: \warbler-js\src\methods\getCookieBy.js
- */
-
 /**
  * @description:获取浏览器Cookie的值
  * @param { String } 要获取的Cookie的属性名

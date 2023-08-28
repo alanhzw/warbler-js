@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:英文
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 16:55:15
- * @FilePath: \warblerJS\src\reg\form\englishReg.js
- */
-
 /**
  * @description: 英文
  * @param { String } value 待验证字符串

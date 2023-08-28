@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:统一社会信用代码(宽松匹配)(15位/18位/20位数字/字母)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 11:49:20
- * @FilePath: \warblerJS\src\reg\life\codsReg.js
- */
-
 /**
  * @description: 统一社会信用代码(宽松匹配)(15位/18位/20位数字/字母)
  * @param { String } value 待验证字符串

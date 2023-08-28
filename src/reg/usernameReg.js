@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:用户名校验，4到16位（字母，数字，下划线，减号）
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:07:55
- * @FilePath: \warblerJS\src\reg\form\usernameReg.js
- */
-
 /**
  * @description: 用户名校验，4到16位（字母，数字，下划线，减号）
  * @param { String } value 待验证字符串

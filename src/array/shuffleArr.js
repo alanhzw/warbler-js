@@ -1,10 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:随机化数组元素的顺序
- * @Date: 2021-09-17 17:04:00
- * @LastEditTime: 2021-10-29 10:59:28
- * @FilePath: \warblerJS\src\array\other\shuffleArr.js
- */
 /**
  * @description: 随机化数组元素的顺序
  * @param { Array } arr 需要打乱顺序的数组

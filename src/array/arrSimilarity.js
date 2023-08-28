@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:获取两个数组之间相同的元素
- * @Date: 2021-09-17 16:35:02
- * @LastEditTime: 2021-09-17 16:38:32
- * @FilePath: \warblerJS\src\array\arrSimilarity.js
- */
-
 /**
  * @description: 获取两个数组之间相同的元素
  * @param { Array } arr1 需要获取相同元素的数组一

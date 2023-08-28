@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:邮政编码
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:10:18
- * @FilePath: \warblerJS\src\reg\form\postalReg.js
- */
-
 /**
  * @description: 邮政编码
  * @param { String } value 待验证字符串

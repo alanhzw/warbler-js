@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:获取两个数组之间不同的元素
- * @Date: 2021-09-17 16:35:02
- * @LastEditTime: 2021-09-17 16:52:56
- * @FilePath: \warblerJS\src\array\arrDifference.js
- */
-
 /**
  * @description: 获取两个数组之间不同的元素
  * @param { Array } arr1 需要获取不同元素的数组一

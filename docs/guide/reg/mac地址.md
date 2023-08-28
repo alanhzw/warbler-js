@@ -1,10 +1,4 @@
-<!--
- * @Author: 一尾流莺
- * @Description:mac地址
- * @Date: 2021-09-13 18:18:23
- * @LastEditTime: 2021-10-14 09:48:35
- * @FilePath: \warblerjs-guide\docs\guide\form\macReg.md
--->
+
 
 # mac地址
 

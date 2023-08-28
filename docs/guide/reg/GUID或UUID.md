@@ -1,11 +1,3 @@
-<!--
- * @Author: 一尾流莺
- * @Description:GUID或UUID
- * @Date: 2021-09-13 18:18:23
- * @LastEditTime: 2023-03-28 18:49:12
- * @FilePath: \warbler-js\docs\guide\reg\GUID或者UUID.md
--->
-
 # GUID 或 UUID
 
 验证 **GUID/UUID**，即通用唯一识别码。是一个由 `4` 个连字号 `(-)` 将 `32` 个字节长的字符串分隔后生成的字符串，总共 `36` 个字节长。

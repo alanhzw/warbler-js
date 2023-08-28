@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:入口文件
- * @Date: 2021-09-10 11:14:16
- * @LastEditTime: 2023-08-25 16:19:14
- * @FilePath: \warbler-js\src\index.js
- */
-
 // 数组
 export * from './array/index';
 
@@ -25,7 +17,7 @@ export * from './methods/index';
 export * from './number/index';
 
 // 对象
-// export * from './object/index';
+export * from './object/index';
 
 // 正则
 export * from './reg/index';

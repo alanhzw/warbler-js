@@ -1,10 +1,4 @@
-<!--
- * @Author: 一尾流莺
- * @Description:获取浏览器Cookie的值
- * @Date: 2021-09-13 18:16:32
- * @LastEditTime: 2023-04-14 16:23:12
- * @FilePath: \warbler-js\docs\guide\methods\获取浏览器Cookie的值.md
--->
+
 
 # 获取浏览器 Cookie 的值
 

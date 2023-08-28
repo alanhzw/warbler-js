@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:车牌号(非新能源)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 15:27:39
- * @FilePath: \warblerJS\src\reg\phone\carsReg.js
- */
-
 /**
  * @description: 车牌号(非新能源)
  * @param { String } value 待验证字符串

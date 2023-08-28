@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:获取 sidebar
- * @Date: 2023-03-28 16:27:35
- * @LastEditTime: 2023-08-28 14:46:17
- * @FilePath: \warbler-js\docs\.vitepress\sidebar\index.ts
- */
-
 import path from 'path';
 import fs from 'fs';
 

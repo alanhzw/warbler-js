@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:子网掩码
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 14:04:14
- * @FilePath: \warblerJS\src\reg\web\subnetReg.js
- */
-
 /**
  * @description: 子网掩码
  * @param { String } value 待验证字符串

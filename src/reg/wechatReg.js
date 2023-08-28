@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:微信号
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 16:45:13
- * @FilePath: \warblerJS\src\reg\phone\wechatReg.js
- */
-
 /**
  * @description: 微信号
  * @param { String } value 待验证字符串

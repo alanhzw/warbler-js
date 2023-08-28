@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:身份证号（香港）
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 16:21:51
- * @FilePath: \warblerJS\src\reg\phone\idHongKongReg.js
- */
-
 /**
  * @description: 身份证号（香港）
  * @param { String } value 待验证字符串

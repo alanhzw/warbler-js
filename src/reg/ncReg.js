@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:数字和中文的组合
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:13:47
- * @FilePath: \warblerJS\src\reg\form\ncReg.js
- */
-
 /**
  * @description: 数字和中文的组合
  * @param { String } value 待验证字符串

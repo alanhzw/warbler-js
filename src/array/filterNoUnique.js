@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:过滤数组中的非唯一值
- * @Date: 2021-09-15 10:54:18
- * @LastEditTime: 2021-09-15 11:13:02
- * @FilePath: \warblerJS\src\array\filterNoUnique.js
- */
-
 /**
  * @description: 过滤数组中的非唯一值
  * @param { Array } arr 需要过滤的数组

@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:获取当前页面的URL
- * @Date: 2021-09-17 15:52:02
- * @LastEditTime: 2021-09-17 17:31:16
- * @FilePath: \warblerJS\src\methods\getCurrentUrl.js
- */
-
 /**
  * @description:获取当前页面的URL
  * @param {*} null

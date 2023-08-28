@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:日期 YYYY-MM-DD
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:35:43
- * @FilePath: \warblerJS\src\reg\web\ymdReg.js
- */
-
 /**
  * @description: 日期 YYYY-MM-DD
  * @param { String } value 待验证字符串

@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:获取两个日期之间的差值
- * @Date: 2021-09-14 16:09:42
- * @LastEditTime: 2021-09-26 17:48:40
- * @FilePath: \warblerJS\src\date\getDayDiff.js
- */
-
 /**
  * @description: 获取两个日期之间的差值
  * @param { String } date1 指定日期1 可传参数同 new Date() , 支持 `yyyy-mm-dd`格式

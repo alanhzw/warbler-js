@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:密码强度校验，最少6位，包括至少1个大写字母，1个小写字母，1个数字，1个特殊字符
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:06:05
- * @FilePath: \warblerJS\src\reg\form\passwordReg.js
- */
-
 /**
  * @description: 密码强度校验，最少6位，包括至少1个大写字母，1个小写字母，1个数字，1个特殊字符
  * @param { String } value 待验证字符串

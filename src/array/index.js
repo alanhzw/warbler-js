@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description: 操作数组
- * @Date: 2021-09-10 11:15:33
- * @LastEditTime: 2023-08-28 14:55:06
- * @FilePath: \warbler-js\src\array\index.js
- */
-
 // 计算数组中元素的出现次数
 import countFrequency from './countFrequency';
 

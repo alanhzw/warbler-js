@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:数组对象去重(不会修改原数组)
- * @Date: 2021-09-10 11:15:33
- * @LastEditTime: 2023-04-14 14:38:42
- * @FilePath: \warbler-js\src\array\duplicate\arrObjectWithoutDupli.js
- */
-
 /**
  * @description:数组对象去重
  * @param { Array } arr 目标去重的数组

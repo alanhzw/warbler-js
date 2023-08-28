@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:身份证号（澳门）
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 16:22:05
- * @FilePath: \warblerJS\src\reg\phone\idMacaoReg.js
- */
-
 /**
  * @description: 身份证号（澳门）
  * @param { String } value 待验证字符串

@@ -1,11 +1,3 @@
-<!--
- * @Author: 一尾流莺
- * @Description:判断指定日期是不是n天后
- * @Date: 2021-09-13 18:16:32
- * @LastEditTime: 2023-03-28 18:28:16
- * @FilePath: \warbler-js\docs\guide\date\判断指定日期是不是n天后.md
--->
-
 # 判断指定日期是不是 n 天后
 
 ## 语法

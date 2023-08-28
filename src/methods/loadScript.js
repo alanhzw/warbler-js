@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:异步加载script脚本
- * @Date: 2021-09-14 15:30:29
- * @LastEditTime: 2021-09-14 15:34:41
- * @FilePath: \warblerJS\src\methods\loadScript.js
- */
-
 /**
  * @description:异步加载script脚本
  * @param { String } src 需要加载的脚本地址

@@ -1,10 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:根据对象数组的属性值移除数组的元素
- * @Date: 2021-10-29 09:38:27
- * @LastEditTime: 2021-10-29 11:11:18
- * @FilePath: \warblerJS\src\array\remove\arrRemoveObjEle.js
- */
 /**
  * @description: 根据对象数组的属性值移除数组的元素
  * @param { Array } 需要删除元素的数组

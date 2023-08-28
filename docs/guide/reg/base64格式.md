@@ -1,10 +1,4 @@
-<!--
- * @Author: 一尾流莺
- * @Description:base64格式
- * @Date: 2021-09-13 18:18:23
- * @LastEditTime: 2021-10-14 09:48:04
- * @FilePath: \warblerjs-guide\docs\guide\form\baseReg.md
--->
+
 
 # base64 格式
 

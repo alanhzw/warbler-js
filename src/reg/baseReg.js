@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:base64格式
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 14:39:34
- * @FilePath: \warblerJS\src\reg\web\baseReg.js
- */
-
 /**
  * @description: base64格式
  * @param { String } value 待验证字符串

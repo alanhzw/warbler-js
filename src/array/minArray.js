@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:获取数组中指定个数的最小元素
- * @Date: 2021-09-16 17:32:41
- * @LastEditTime: 2021-09-16 17:41:32
- * @FilePath: \warblerJS\src\array\minArray.js
- */
-
 /**
  * @description: 获取数组中指定个数的最小元素
  * @param { Array } arr 需要获取最小元素的数组

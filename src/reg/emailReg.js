@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:验证邮箱
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 15:35:26
- * @FilePath: \warblerJS\src\reg\form\emailReg.js
- */
-
 /**
  * @description: 验证邮箱
  * @param { String } value 待验证字符串

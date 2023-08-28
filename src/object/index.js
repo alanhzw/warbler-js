@@ -1,9 +1,4 @@
-/*
- * @Author: 一尾流莺
- * @Description:操作对象
- * @Date: 2021-09-10 11:15:44
- * @LastEditTime: 2021-09-10 11:45:33
- * @FilePath: \warblerJS\src\object\index.js
- */
+// 去除对象中的空属性，null，undefined
+import removeEmptyProperties from './removeEmptyProperties';
 
-export {};
+export { removeEmptyProperties };

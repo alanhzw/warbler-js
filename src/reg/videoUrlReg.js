@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:视频(video)链接地址（视频格式可按需增删）
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 14:22:08
- * @FilePath: \warblerJS\src\reg\web\videoUrlReg.js
- */
-
 /**
  * @description: 视频(video)链接地址（视频格式可按需增删）
  * @param { String } value 待验证字符串

@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:大写英文
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 16:59:59
- * @FilePath: \warblerJS\src\reg\form\uppercaseReg.js
- */
-
 /**
  * @description: 大写英文
  * @param { String } value 待验证字符串

@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:判断是否达到指定时间
- * @Date: 2021-09-14 16:09:42
- * @LastEditTime: 2021-10-18 11:30:15
- * @FilePath: \warblerJS\src\date\judge\isScheduled.js
- */
-
 /**
  * @description: 判断是否达到指定时间
  * @param { String } date 指定日期 格式为"YYYY-MM-DD HH:mm:ss"

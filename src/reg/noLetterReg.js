@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:不能包含字母
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:17:43
- * @FilePath: \warblerJS\src\reg\form\noLetterReg.js
- */
-
 /**
  * @description: 不能包含字母
  * @param { String } value 待验证字符串

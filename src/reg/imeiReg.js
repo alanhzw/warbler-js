@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:手机机身码(IMEI)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 10:58:01
- * @FilePath: \warblerJS\src\reg\life\imeiReg.js
- */
-
 /**
  * @description: 手机机身码(IMEI)
  * @param { String } value 待验证字符串

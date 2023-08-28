@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:中国手机号, 只要是13,14,15,16,17,18,19开头即可
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-09 17:15:10
- * @FilePath: \warblerJS\src\reg\complexTelReg.js
- */
-
 /**
  * @description: 中国手机号(复杂), 只要是13,14,15,16,17,18,19开头即可
  * @param { String } value 待验证字符串

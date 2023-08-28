@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:根据元素值移除数组的元素
- * @Date: 2021-10-29 09:37:17
- * @LastEditTime: 2021-10-29 11:02:42
- * @FilePath: \warblerJS\src\array\remove\arrRemoveEle.js
- */
-
 /**
  * @description: 根据元素值移除数组的元素
  * @param { Array } 需要删除元素的数组

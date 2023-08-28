@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:帐号是否合法(字母开头，允许5-16字节，允许字母数字下划线组合
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 16:35:31
- * @FilePath: \warblerJS\src\reg\form\accountReg.js
- */
-
 /**
  * @description: 帐号是否合法(字母开头，允许5-16字节，允许字母数字下划线组合
  * @param { String } value 待验证字符串

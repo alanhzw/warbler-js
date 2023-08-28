@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:必须带端口号的网址(或ip)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 11:13:46
- * @FilePath: \warblerJS\src\reg\webUrl\urlWithPortReg.js
- */
-
 /**
  * @description: 必须带端口号的网址(或ip)
  * @param { String } value 待验证字符串

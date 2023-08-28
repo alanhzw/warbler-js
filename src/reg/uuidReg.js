@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:GUID/UUID
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 14:13:57
- * @FilePath: \warblerJS\src\reg\web\uuidReg.js
- */
-
 /**
  * @description: GUID/UUID
  * @param { String } value 待验证字符串

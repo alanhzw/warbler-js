@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:计算对象数组指定健的平均值
- * @Date: 2021-09-10 14:58:17
- * @LastEditTime: 2021-09-16 17:45:41
- * @FilePath: \warblerJS\src\array\getAverageBy.js
- */
-
 /**
  * @description: 计算对象数组指定健的平均值
  * @param { Array } arr 需要计算平均值的数组

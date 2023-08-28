@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:中文名字
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 15:16:42
- * @FilePath: \warblerJS\src\reg\string\chineseNameReg.js
- */
-
 /**
  * @description: 中文名字
  * @param { String } value 待验证字符串

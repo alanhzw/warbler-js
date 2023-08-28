@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:16进制颜色
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:25:10
- * @FilePath: \warblerJS\src\reg\web\colorReg.js
- */
-
 /**
  * @description: 16进制颜色
  * @param { String } value 待验证字符串

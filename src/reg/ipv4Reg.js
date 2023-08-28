@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:ip-v4
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:30:27
- * @FilePath: \warblerJS\src\reg\web\ipv4Reg.js
- */
-
 /**
  * @description: ip-v4
  * @param { String } value 待验证字符串

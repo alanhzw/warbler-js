@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:判断指定日期是不是n天后
- * @Date: 2021-09-14 16:09:42
- * @LastEditTime: 2021-09-26 17:59:46
- * @FilePath: \warblerJS\src\date\isTomorrow.js
- */
-
 /**
  * @description: 判断指定日期是不是n天后
  * @param { String } date 指定日期 可传参数同 new Date() ，并且支持 `yyyy-mm-dd`格式 ,不传默认获取当天

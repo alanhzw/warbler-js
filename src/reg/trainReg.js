@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:火车车次
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 10:51:43
- * @FilePath: \warblerJS\src\reg\life\trainReg.js
- */
-
 /**
  * @description: 火车车次
  * @param { String } value 待验证字符串

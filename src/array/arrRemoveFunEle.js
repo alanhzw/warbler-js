@@ -1,10 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:根据函数名称移除函数数组的元素
- * @Date: 2021-10-29 09:38:38
- * @LastEditTime: 2021-10-29 11:07:42
- * @FilePath: \warblerJS\src\array\remove\arrRemoveFunEle.js
- */
 /**
  * @description: 根据函数名称移除函数数组的元素
  * @param { Array } 需要删除元素的数组

@@ -1,11 +1,3 @@
-<!--
- * @Author: 一尾流莺
- * @Description:手机机身码(IMEI)
- * @Date: 2021-09-13 18:18:23
- * @LastEditTime: 2021-10-13 19:09:02
- * @FilePath: \warblerjs-guide\docs\guide\reg\imeiReg.md
--->
-
 # 手机机身码(IMEI)
 
 验证手机机身码(IMEI)，`16-18` 位数字。
@@ -38,9 +30,9 @@ const imeiReg = (value) => {
 
 ```js
 import { imeiReg } from 'warbler-js';
-const result1 = imeiReg('12345678998765432')
-const result2 = imeiReg('12345678998765432234')
+const result1 = imeiReg('12345678998765432');
+const result2 = imeiReg('12345678998765432234');
 
-console.log(result1) // true
-console.log(result2) // false
+console.log(result1); // true
+console.log(result2); // false
 ```

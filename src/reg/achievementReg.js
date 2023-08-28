@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:考卷分数(150分制)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 14:09:25
- * @FilePath: \warblerJS\src\reg\life\achievementReg.js
- */
-
 /**
  * @description: 考卷分数(150分制)
  * @param { String } value 待验证字符串

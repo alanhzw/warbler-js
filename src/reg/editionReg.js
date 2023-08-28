@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:版本号
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 14:18:37
- * @FilePath: \warblerJS\src\reg\web\editionReg.js
- */
-
 /**
  * @description: 版本号
  * @param { String } value 待验证字符串

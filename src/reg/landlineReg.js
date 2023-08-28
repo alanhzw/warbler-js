@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:座机(tel phone)电话(国内),如: 0341-86091234
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 15:51:06
- * @FilePath: \warblerJS\src\reg\phone\landlineReg.js
- */
-
 /**
  * @description: 座机(tel phone)电话(国内),如: 0341-86091234
  * @param { String } value 待验证字符串

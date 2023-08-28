@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:网址(url,支持端口和"?+参数"和"#+参数)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 11:10:33
- * @FilePath: \warblerJS\src\reg\webUrl\urlReg.js
- */
-
 /**
  * @description: 网址(url,支持端口和"?+参数"和"#+参数)
  * @param { String } value 待验证字符串

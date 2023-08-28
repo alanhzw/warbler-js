@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:模拟延迟
- * @Date: 2021-09-10 14:58:17
- * @LastEditTime: 2021-09-11 21:48:34
- * @FilePath: \warblerJS\src\methods\imitateDelay.js
- */
-
 /**
  * @description: 模拟延迟
  * @param { Number } timeout 延迟的时间(ms)

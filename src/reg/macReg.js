@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:mac地址
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:24:39
- * @FilePath: \warblerJS\src\reg\web\macReg.js
- */
-
 /**
  * @description: mac地址
  * @param { String } value 待验证字符串

@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:数字,整数和小数
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 17:48:58
- * @FilePath: \warblerJS\src\reg\number\numberReg.js
- */
-
 /**
  * @description: 数字,整数和小数
  * @param { String } value 待验证字符串

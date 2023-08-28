@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:12小时制时间（hh:mm:ss）
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 14:37:19
- * @FilePath: \warblerJS\src\reg\web\HmsReg.js
- */
-
 /**
  * @description: 12小时制时间（hh:mm:ss）
  * @param { String } value 待验证字符串

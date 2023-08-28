@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:身份证号码(台湾)
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 16:23:37
- * @FilePath: \warblerJS\src\reg\phone\idTaiwanReg.js
- */
-
 /**
  * @description: 身份证号码(台湾)
  * @param { String } value 待验证字符串

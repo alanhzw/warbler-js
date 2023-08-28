@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:将字符串中每个单词的首字母转为大写
- * @Date: 2021-09-16 17:08:25
- * @LastEditTime: 2021-09-16 17:12:08
- * @FilePath: \warblerJS\src\string\capitalizeWord.js
- */
-
 /**
  * @description: 将字符串中每个单词的首字母转为大写
  * @param { String } str 目标字符串

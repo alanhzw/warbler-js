@@ -1,10 +1,4 @@
-<!--
- * @Author: 一尾流莺
- * @Description:QQ号
- * @Date: 2021-09-13 18:18:23
- * @LastEditTime: 2021-10-13 19:07:22
- * @FilePath: \warblerjs-guide\docs\guide\reg\qqReg.md
--->
+
 
 # QQ号
 

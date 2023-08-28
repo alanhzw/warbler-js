@@ -1,11 +1,3 @@
-/*
- * @Author: 一尾流莺
- * @Description:货币金额（支持负数、千分位分隔符）
- * @Date: 2021-10-08 14:34:58
- * @LastEditTime: 2021-10-13 14:48:16
- * @FilePath: \warblerJS\src\reg\number\currencyReg.js
- */
-
 /**
  * @description: 货币金额（支持负数、千分位分隔符）
  * @param { String } value 待验证字符串
