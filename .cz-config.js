@@ -2,7 +2,7 @@
 module.exports = {
   types: [
     { value: '🚀 新增  ', name: '新增:  新的内容' },
-    { value: '📦 版本  ', name: '新增:  发布新的版本' },
+    { value: '📦 版本  ', name: '版本:  发布新的版本' },
     { value: '🐛 修复  ', name: '修复:  修复一个Bug' },
     { value: '📝 文档  ', name: '文档:  变更的只有文档' },
     { value: '🏠 格式  ', name: '格式:  空格, 分号等格式修复' },

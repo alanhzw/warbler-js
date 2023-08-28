@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:获取 sidebar
  * @Date: 2023-03-28 16:27:35
- * @LastEditTime: 2023-08-25 16:15:41
+ * @LastEditTime: 2023-08-28 14:46:17
  * @FilePath: \warbler-js\docs\.vitepress\sidebar\index.ts
  */
 
@@ -19,21 +19,6 @@ const typeMap = {
   object: '对象',
   reg: '正则',
   string: '字符',
-  duplicate: '去重',
-  check: '检测',
-  filter: '过滤',
-  find: '查找',
-  calculation: '计算',
-  remove: '移除',
-  other: '其它',
-  random: '随机',
-  judge: '判断',
-  obtain: '获取',
-  exchange: '转换',
-  sort: '排除',
-  form: '表单',
-  phone: '号码',
-  web: '网络',
 };
 
 class Sidebar {
