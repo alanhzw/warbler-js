@@ -16,6 +16,6 @@ const ipv4Reg = (value) => {
   const result1 = ipv4Reg('127.16.0.0')
   const result2 = ipv4Reg('127.0.0.1:8080')
   console.log(result1) // true
-  console.log(result2) // false
+  console.log(result2) // true
  */
 export default ipv4Reg;

@@ -1,13 +1,13 @@
 // 计算数组中元素的出现次数
 import countFrequency from './countFrequency';
 
-// 计算对象数组中某个属性值的出现次数
+// 计算对象数组中指定属性值的出现次数
 import countObjFrequency from './countObjFrequency';
 
 // 计算数组元素的总和
 import getTotal from './getTotal';
 
-// 计算对象数组某个属性值的总和
+// 计算对象数组指定属性值的总和
 import getTotalBy from './getTotalBy';
 
 // 计算对象数组指定健的平均值
@@ -58,6 +58,12 @@ import arrRemoveObjEle from './arrRemoveObjEle';
 // 随机化数组元素的顺序
 import shuffleArr from './shuffleArr';
 
+// 统计数组中重复元素的位置
+import countDuplicatePositions from './countDuplicatePositions';
+
+// 统计对象数组中指定属性值重复的位置
+import countObjDuplicatePositions from './countObjDuplicatePositions';
+
 export {
   filterUnique,
   filterNoUnique,
@@ -79,4 +85,6 @@ export {
   arrSimilarity,
   getDifferenceFrom,
   shuffleArr,
+  countDuplicatePositions,
+  countObjDuplicatePositions,
 };

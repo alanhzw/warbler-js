@@ -1,5 +1,5 @@
 /**
- * @description: 计算对象数组中某个属性值的出现次数
+ * @description: 计算对象数组中指定属性值的出现次数
  * @param { Array } arr 需要统计属性值出现次数的数组
  * @param { String } key 需要统计出现次数的属性
  * @param { String | Number } value 需要统计出现次数的属性值

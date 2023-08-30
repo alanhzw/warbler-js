@@ -9,7 +9,7 @@ const reverseString = (str) => str.split('').reverse().join('');
 
   const initStr = 'hello,world'
   const finallyStr = reverseString(initStr)
-  console.log(finallyStr) // dlrow,olleh
+  console.log(finallyStr) //=> dlrow,olleh
 
  */
 

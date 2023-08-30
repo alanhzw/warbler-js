@@ -13,4 +13,14 @@ import reverseString from './reverseString';
 // 将字符串按字母顺序排列
 import alphabetical from './alphabetical';
 
-export { toUpperFirstLetter, toLowerFirstLetter, capitalizeWord, reverseString, alphabetical };
+// 判断一个字符串是否为空
+import isStringEmpty from './isStringEmpty';
+
+export {
+  toUpperFirstLetter,
+  toLowerFirstLetter,
+  capitalizeWord,
+  reverseString,
+  alphabetical,
+  isStringEmpty,
+};

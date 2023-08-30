@@ -1,19 +1,26 @@
+/* eslint-disable operator-linebreak */
 /**
  * @description: 去除对象中的空属性，null，undefined
  * @param { Object } obj 目标对象
+ * @param { Object } options 配置对象
  * @return { Object } 去除空属性后的对象
  */
-function removeEmptyProperties(obj) {
+const removeEmptyProperties = (obj, options = {}) => {
+  const { deep = true, removeEmpty = true, removeNull = true, removeUndefined = true } = options;
   const newObj = {};
   Object.keys(obj).forEach((key) => {
-    if (typeof obj[key] === 'object' && obj[key] !== null) {
-      newObj[key] = removeEmptyProperties(obj[key]);
-    } else if (obj[key] !== null && obj[key] !== undefined && obj[key] !== '') {
+    if (typeof obj[key] === 'object' && obj[key] !== null && deep) {
+      newObj[key] = removeEmptyProperties(obj[key], options);
+    } else if (
+      (!removeNull || obj[key] !== null) &&
+      (!removeUndefined || obj[key] !== undefined) &&
+      (!removeEmpty || obj[key] !== '')
+    ) {
       newObj[key] = obj[key];
     }
   });
   return newObj;
-}
+};
 
 /** 用法
 
@@ -26,19 +33,16 @@ const obj = {
   car: {
     color: 'red',
     price: '',
+    size: null,
+    weight: undefined,
   },
 };
 
 console.log(removeEmptyProperties(obj));
-
-输出
-{
-  name: 'warbler',
-  homepage: 'http://www.warblerfe.top',
-  car: {
-    color: 'red',
-  },
-};
+console.log(removeEmptyProperties(obj, { deep: false }));
+console.log(removeEmptyProperties(obj, { removeEmpty: false }));
+console.log(removeEmptyProperties(obj, { removeNull: false }));
+console.log(removeEmptyProperties(obj, { removeUndefined: false }));
 
  */
 
