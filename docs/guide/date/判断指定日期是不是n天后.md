@@ -44,3 +44,7 @@ console.log(result2); //=> true
 console.log(result3); //=> false
 console.log(result4); //=> true
 ```
+
+## 添加版本
+
+**1.2.0**

@@ -36,3 +36,7 @@ const result2 = imeiReg('12345678998765432234');
 console.log(result1); // true
 console.log(result2); // false
 ```
+
+## 添加版本
+
+**1.2.0**

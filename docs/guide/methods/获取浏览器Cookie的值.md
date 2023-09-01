@@ -1,5 +1,3 @@
-
-
 # 获取浏览器 Cookie 的值
 
 ## 语法
@@ -30,3 +28,7 @@ import { getCookieBy } from 'warbler-js';
 const result = getCookieBy('name');
 console.log(result); //=>'warbler'
 ```
+
+## 添加版本
+
+**1.2.0**

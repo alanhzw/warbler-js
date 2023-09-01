@@ -1,6 +1,4 @@
-
-
-# mac地址
+# mac 地址
 
 验证 `mac地址`。
 
@@ -32,9 +30,13 @@ const macReg = (value) => {
 
 ```js
 import { macReg } from 'warbler-js';
-const result1 = macReg('38:f9:d3:4b:f5:51')
-const result2 = macReg('00-0C-18-CA-E4-55')
+const result1 = macReg('38:f9:d3:4b:f5:51');
+const result2 = macReg('00-0C-18-CA-E4-55');
 
-console.log(result1) // true
-console.log(result2) // true
+console.log(result1); // true
+console.log(result2); // true
 ```
+
+## 添加版本
+
+**1.2.0**

@@ -1,5 +1,3 @@
-
-
 # 获取当前页面的 URL
 
 ## 语法
@@ -30,3 +28,7 @@ import { getCurrentUrl } from 'warbler-js';
 const result = getCurrentUrl();
 console.log(result); //=>http://www.warblerfe.top/warbler/js
 ```
+
+## 添加版本
+
+**1.2.0**

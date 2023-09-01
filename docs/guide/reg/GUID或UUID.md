@@ -36,3 +36,7 @@ const result2 = uuidReg('30b18fc7-7e3a-451d-a09f-f15b338f91bd');
 console.log(result1); // true
 console.log(result2); // true
 ```
+
+## 添加版本
+
+**1.2.0**

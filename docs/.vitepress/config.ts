@@ -9,6 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   appearance: 'dark',
   themeConfig: {
+    logo: 'https://turbo.build/images/docs/repo/repo-hero-logo-dark.svg',
     outlineTitle: '大纲',
     sidebarMenuLabel: '目录',
     returnToTopLabel: '回到顶部',

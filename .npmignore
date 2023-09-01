@@ -14,3 +14,4 @@ node_modules
 commitlint.config.js
 index.html
 yarn.lock
+.release-it.json

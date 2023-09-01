@@ -1,6 +1,4 @@
-
-
-# QQ号
+# QQ 号
 
 验证 `QQ` 号，`5-11` 位数字。
 
@@ -32,9 +30,13 @@ const qqReg = (value) => {
 
 ```js
 import { qqReg } from 'warbler-js';
-const result1 = qqReg('969800462')
-const result2 = qqReg('1741847465')
+const result1 = qqReg('969800462');
+const result2 = qqReg('1741847465');
 
-console.log(result1) // true
-console.log(result2) // true
+console.log(result1); // true
+console.log(result2); // true
 ```
+
+## 添加版本
+
+**1.2.0**

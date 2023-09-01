@@ -130,3 +130,7 @@ console.log(removeEmptyProperties(obj, { removeUndefined: false }));
     }
 }
 ```
+
+## 添加版本
+
+**1.2.1**

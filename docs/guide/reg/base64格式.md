@@ -1,5 +1,3 @@
-
-
 # base64 格式
 
 验证 `base64` 格式。
@@ -39,3 +37,7 @@ const result2 = baseReg('data:image/gif;base63,xxxx==');
 console.log(result1); // true
 console.log(result2); // false
 ```
+
+## 添加版本
+
+**1.2.0**

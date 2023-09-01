@@ -39,3 +39,7 @@ const loadVConsole = async () => {
 };
 loadVConsole();
 ```
+
+## 添加版本
+
+**1.2.0**

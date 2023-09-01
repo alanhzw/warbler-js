@@ -48,3 +48,7 @@ console.log(reversedObj);
     "vegetable": "carrot"
 }
 ```
+
+## 添加版本
+
+**1.2.1**

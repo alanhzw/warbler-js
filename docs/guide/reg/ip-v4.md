@@ -37,3 +37,7 @@ const result2 = ipv4Reg('127.0.0.1:8080');
 console.log(result1); // true
 console.log(result2); // true
 ```
+
+## 添加版本
+
+**1.2.0**
