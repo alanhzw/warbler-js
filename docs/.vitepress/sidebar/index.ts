@@ -2,7 +2,8 @@ import path from 'path';
 import fs from 'fs';
 
 const typeMap = {
-  array: '数组',
+  array: '简单数组',
+  array_object: '对象数组',
   boolean: '布尔值',
   date: '日期',
   function: '函数',

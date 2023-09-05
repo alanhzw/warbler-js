@@ -5,7 +5,7 @@
  * @param { String | Number } value 查询对象的值
  * @return { obj } 查找到的结果
  */
-const findObjectInArray = (arr, key, value) => arr.find((obj) => obj[key] === value);
+const findObjectInArray = (arr, key, value) => arr.filter((obj) => obj[key] === value);
 
 /** 用法
 
@@ -15,7 +15,20 @@ const findObjectInArray = (arr, key, value) => arr.find((obj) => obj[key] === va
     {name: 'Grapes', quantity: 2}
   ];
   const result = findObjectInArray(fruits,'name','Apples');
-  console.log(result) // {name: 'Apples', quantity: 10}
+  console.log(result)
+
+// 输出以下内容
+
+[
+  {
+    name: 'Apples',
+    quantity: 10,
+  },
+  {
+    name: 'Apples',
+    quantity: 4,
+  },
+];
 
  */
 

@@ -1,5 +1,8 @@
-// 数组
+// 简单数组
 export * from './array/index';
+
+// 对象数组
+export * from './array_object/index';
 
 // 布尔值
 export * from './boolean/index';
