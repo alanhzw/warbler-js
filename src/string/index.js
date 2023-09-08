@@ -16,6 +16,15 @@ import alphabetical from './alphabetical';
 // 判断一个字符串是否为空
 import isStringEmpty from './isStringEmpty';
 
+// 字符串去重
+import removeStrDuplicates from './removeStrDuplicates';
+
+// 检验一个字符串是否是回文
+import isPalindrome from './isPalindrome';
+
+// 检验指定索引处是不是某个字符
+import checkCharAtIndex from './checkCharAtIndex';
+
 export {
   toUpperFirstLetter,
   toLowerFirstLetter,
@@ -23,4 +32,7 @@ export {
   reverseString,
   alphabetical,
   isStringEmpty,
+  removeStrDuplicates,
+  isPalindrome,
+  checkCharAtIndex,
 };
