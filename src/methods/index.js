@@ -13,4 +13,10 @@ import scrollToTop from './scrollToTop';
 // 滚动到页面顶部
 import getCookieBy from './getCookieBy';
 
-export { imitateDelay, loadScript, getCurrentUrl, scrollToTop, getCookieBy };
+// 获取变量的类型
+import getType from './getType';
+
+// 判断变量的类型
+import isType from './isType';
+
+export { imitateDelay, loadScript, getCurrentUrl, scrollToTop, getCookieBy, getType, isType };
