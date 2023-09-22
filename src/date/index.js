@@ -16,4 +16,7 @@ import dayOfYear from './dayOfYear';
 // 获取两个日期之间以天为单位的差值
 import getDayDiff from './getDayDiff';
 
-export { isToday, isYesterday, isTomorrow, isScheduled, dayOfYear, getDayDiff };
+// 获取指定日期的相应模式
+import getDateOf from './getDateOf';
+
+export { isToday, isYesterday, isTomorrow, isScheduled, dayOfYear, getDayDiff, getDateOf };

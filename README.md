@@ -10,7 +10,7 @@
 
 👉👉 [github](https://github.com/alanhzw)
 
-👉👉 [个人博客](http://www.warblerfe.top)
+👉👉 [个人主页](http://www.warblerfe.top)
 
 ## 版本升级
 
@@ -19,6 +19,7 @@
 yarn build
 // 提交代码到 github
 yarn commit:all
+// 升级版本
 yarn release:patch
 // 发布包到 npm
 npm publish
