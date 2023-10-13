@@ -19,4 +19,7 @@ import getDayDiff from './getDayDiff';
 // 获取指定日期的相应模式
 import getDateOf from './getDateOf';
 
-export { isToday, isYesterday, isTomorrow, isScheduled, dayOfYear, getDayDiff, getDateOf };
+// 获取指定日期是星期几
+import getWeekDay from './getWeekDay';
+
+export { isToday, isYesterday, isTomorrow, isScheduled, dayOfYear, getDayDiff, getDateOf, getWeekDay };
