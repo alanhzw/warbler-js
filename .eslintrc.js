@@ -17,6 +17,9 @@ module.exports = {
     'max-len': 'off',
     // 禁用不必要的转义符
     'no-useless-escape': 'off',
-    'object-curly-newline': 0,
+    // 禁用对象的换行风格
+    'object-curly-newline': 'off',
+    // 禁用语法结构
+    'no-restricted-syntax': 'off',
   },
 };

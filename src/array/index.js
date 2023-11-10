@@ -43,6 +43,12 @@ import shuffleArr from './shuffleArr';
 // 统计数组中重复元素的位置
 import countDuplicatePositions from './countDuplicatePositions';
 
+// 判断两个数组是否含有相同的元素
+import arraysAreEqual from './arraysAreEqual';
+
+// 判断两个数组是否全等
+import arraysAreCongruent from './arraysAreCongruent';
+
 export {
   filterUnique,
   filterNoUnique,
@@ -59,4 +65,6 @@ export {
   getDifferenceFrom,
   shuffleArr,
   countDuplicatePositions,
+  arraysAreEqual,
+  arraysAreCongruent,
 };
